@@ -1,6 +1,6 @@
 /** box-1**/
 .heading-img{
-height:500px;
+height:550px;
 width:1500px;
 padding: none;
 margin: none;
@@ -29,3 +29,84 @@ margin: none;
         flex-direction:row-reverse;
         justify-content:end;
     }
+    .p1{
+        font-size:20px;
+    }
+    /** box-3**/
+    .text-center1{
+        text-align: center;
+    }
+    .heading1{
+        font-size: 30px;
+    }
+
+        /** box-4 circle card**/
+        .img-tiger{
+            height: 200px;
+           
+            border-radius: 50%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+             }
+        .img-tiger:hover {
+            border-radius:100%;
+            transition: 2s;
+            margin-left: 30px;
+             }
+                /** box-5 card box**/
+        .menu-card{
+            background-color:rgb(243, 223, 227);
+            width:200px;
+            padding:20px;
+            margin:20px;
+            border-radius: 10px;
+            box-shadow: -5px 5px 10px 2px #333333;
+            border: 0.5px solid #737373;
+        }
+        
+        .menu-icon{
+            height:150px;
+            display: block;
+            margin:10px auto;
+        }
+        .menu-title{
+            margin-bottom:10px;
+            padding:0;
+            font-size: 30px;
+        }
+        .menu-discription{
+            font-size:25px;
+            font-family: dancing script;
+            margin-top: 0px;
+            color:rgb(2, 2, 94);
+        }
+        .menu-btn{
+            background-color: #fd7dae;
+            color: white;
+            border:none;
+            border-radius:10px;
+            padding:10px 10px;
+            margin:0px 50px;
+            margin-bottom: 10px;
+            margin-top:0 ;
+        }
+        .menu-btn:hover{
+            border:1px solid #f1689c
+        }
+        .menu-card:hover{
+            box-shadow: -4px 4px 10px 2px  #f1679c;
+            transition: 1.5s;
+            background-color: white;
+        }
+        .card-container{
+            display:flex;
+            flex-wrap: wrap;
+            justify-content:space-evenly;
+        }
+        .text6{
+            font-family: dancing script;
+            color:#001858;
+        
+        }
+        
