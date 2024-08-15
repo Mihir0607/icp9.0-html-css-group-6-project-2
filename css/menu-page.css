@@ -1,0 +1,31 @@
+/** box-1**/
+.heading-img{
+height:500px;
+width:1500px;
+padding: none;
+margin: none;
+}
+/** box-2**/
+.heading-img1{
+    height:500px;
+    width:800px;
+    }
+    .box1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        background-color: rgb(252, 218, 222);
+        padding: 0;
+        margin: 0;
+    }
+    .box2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 35px;
+    }
+    .box3{
+        display: flex;
+        flex-direction:row-reverse;
+        justify-content:end;
+    }
