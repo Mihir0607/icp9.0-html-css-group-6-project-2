@@ -56,11 +56,10 @@ margin: none;
         /** box-5 circle card**/
         .img-tiger{
             height: 200px;
-           
-            border-radius: 50%;
+            border-radius: 100%;
             display: flex;
             flex-direction: row;
-            justify-content: space-between;
+            justify-content: space-evenly;
            
              }
         .img-tiger:hover {
@@ -71,8 +70,8 @@ margin: none;
              }
                 /** box-6 card box**/
         .menu-card{
-            background-color:rgb(243, 223, 227);
-            width:200px;
+            background-color:rgb(250, 241, 243);
+            width:260px;
             padding:20px;
             margin:20px;
             border-radius: 10px;
@@ -81,7 +80,8 @@ margin: none;
         }
         
         .menu-icon{
-            height:150px;
+            height:200px;
+            width:200px;
             display: block;
             margin:10px auto;
         }
@@ -91,20 +91,21 @@ margin: none;
             font-size: 30px;
         }
         .menu-discription{
-            font-size:25px;
+            font-size:20px;
             font-family: dancing script;
             margin-top: 0px;
             color:rgb(2, 2, 94);
         }
         .menu-btn{
-            background-color: #fd7dae;
+            background-color: #f8679f;
             color: white;
             border:none;
             border-radius:10px;
-            padding:10px 10px;
-            margin:0px 50px;
-            margin-bottom: 10px;
+            padding:12px 22px;
+            margin:0px 70px;
+            margin-bottom:5px;
             margin-top:0 ;
+            font-size:15px;
         }
         .menu-btn:hover{
             border:1px solid #f1689c
@@ -122,6 +123,8 @@ margin: none;
         .text6{
             font-family: dancing script;
             color:#001858;
-        
+        }
+        .text-3{
+            font-size: 20px;
         }
         
