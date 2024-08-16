@@ -80,7 +80,7 @@ margin: none;
         }
         
         .menu-icon{
-            height:200px;
+            height:210px;
             width:200px;
             display: block;
             margin:10px auto;
@@ -99,7 +99,7 @@ margin: none;
         .menu-btn{
             background-color: #f8679f;
             color: white;
-            border:none;
+            border-radius:white solid 10px;
             border-radius:10px;
             padding:12px 22px;
             margin:0px 70px;
@@ -108,7 +108,9 @@ margin: none;
             font-size:15px;
         }
         .menu-btn:hover{
-            border:1px solid #f1689c
+            border:1px solid #f1689c;
+         
+            transition: 1.5s;
         }
         .menu-card:hover{
             box-shadow: -4px 4px 10px 2px  #f1679c;
