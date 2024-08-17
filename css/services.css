@@ -20,14 +20,14 @@
 }
 .service-card{
     background-color: #fff;
-    width:400px;
+    width:350px;
     padding:10px;
     border-radius: 5px;
     border-radius: 20px;
 }
 .service-img{
     
-    height:150px;
+    height:100px;
     display: block;
     margin: 10px auto;
 }
