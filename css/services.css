@@ -14,9 +14,9 @@
 .service-container{
     display: flex;
     justify-content: space-around;
-    background-color: #f3d2c1;
-    margin: 20px 0;
-    padding: 20px;
+    flex-wrap: wrap;
+    background-color: bisque;
+
 }
 .service-card{
     background-color: #fff;
