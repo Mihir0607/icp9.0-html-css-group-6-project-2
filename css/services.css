@@ -52,10 +52,10 @@
 .service-title {
     font-size: 64px;
     font-weight: bold;
-    text-transform: uppercase;
     color: #fff;
     text-shadow: 3px 3px 5px #000;
-    text-align: center;
-    margin-left: 50rem;
-    padding-top: 20rem;
+    text-align:end;
+    margin-left: 50px;
+    padding-top: 20px;
+
 }
