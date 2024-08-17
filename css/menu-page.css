@@ -132,4 +132,14 @@ margin: none;
         .text-3{
             font-size: 20px;
         }
-        
+           /** box-7 card box**/
+
+        .box8{
+         display:flex;
+        }
+
+        .footer-img{
+         margin:0 2px;
+         
+
+        }
