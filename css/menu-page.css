@@ -68,6 +68,8 @@ margin: none;
             margin-left: 30px;
      
              }
+
+          
                 /** box-6 card box**/
         .menu-card{
             background-color:white;
@@ -99,7 +101,7 @@ margin: none;
         .menu-btn{
             background-color: #f8679f;
             color: white;
-            border-radius:white solid 10px;
+            border-radius:black solid 10px;
             border-radius:10px;
             padding:12px 22px;
             margin:0px 70px;
@@ -108,7 +110,8 @@ margin: none;
             font-size:15px;
         }
         .menu-btn:hover{
-            border:1px solid #f1689c;
+            border:1px solid black 5px;
+            background-color: rgb(250, 37, 154);
          
             transition: 1.5s;
         }
