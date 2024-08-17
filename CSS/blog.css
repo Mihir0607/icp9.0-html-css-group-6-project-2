@@ -18,6 +18,9 @@
     align-items: center;
     margin: 5rem auto;
 }
+.btn:hover{
+    background-color: #c51b70;
+}
 
 .container-two {
     text-align: center;
@@ -39,6 +42,12 @@
 .main-image {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5rem;
+}
+.main-image1 {
+    display: flex;
+    justify-content:space-evenly;
     align-items: center;
     margin-top: 5rem;
 }
@@ -88,10 +97,12 @@ h5 {
     text-transform: uppercase;
     color: #ff0099;
     text-align: center;
+    margin-top: 1.5rem;
 }
 
 p {
     text-align: center;
+    margin-top: 1rem;
 }
 
 .section-heading {
@@ -115,7 +126,7 @@ p {
 }
 
 .img-fluid {
-    width: 280px;
+    width: 350px;
     height: 250px;
 }
 
@@ -128,4 +139,28 @@ p {
     text-align: center;
     font-family: "Abril Fatface", serif;
     letter-spacing: 2px;
+}
+
+
+
+.read-more-target,
+.read-more-trigger_opened {
+  display: none;
+}
+.read-more-state:checked ~ .read-more-wrap .read-more-target,
+.read-more-state:checked ~ .read-more-trigger_opened {
+  display: block;
+}
+.read-more-state:checked ~ .read-more-trigger_closed {
+  display: none;
+}
+
+
+.para{
+    font-size: 17px;
+    color: #ff009986;
+}
+.read{
+    color: #ff00c8bc;
+
 }
