@@ -1,3 +1,42 @@
 .backpage{
     background-image: url(https://modernsciences.org/wp-content/uploads/2023/07/How-does-ice-cream-work_-A-chemist-explains-why-you-cant-just-freeze-cream-and-expect-results.png);
 }
+
+.subtitle-highlight{
+    background-color: #8bd3dd;
+    font-weight: bold;
+    padding: 2px 4px;
+    border-radius: 10px;
+}
+.service-heading{
+    margin-top: 50px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f3d2c1;
+    margin: 20px 0;
+    padding: 20px;
+}
+.service-card{
+    background-color: #fff;
+    width:400px;
+    padding:10px;
+    border-radius: 5px;
+    border-radius: 20px;
+}
+.service-img{
+    
+    height:150px;
+    display: block;
+    margin: 10px auto;
+}
+.text-center{
+    text-align: center;
+}
+.text-font{
+    font-size: 30px;
+}
+.info-font{
+    font-size: 18px;
+}
