@@ -1,643 +1,107 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Home</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/footer1.css">
-    <link rel="stylesheet" href="./css/footer.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <meta charset="utf-8">
+  <title>BUGGU ICECREAM</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <link rel="stylesheet" type="text/css" href="css/footer.css">
 </head>
 
 <body>
-    <div class="nav-container-main1 flex-display">
-        <div class="right-flex flex-display">
-            <img src="./imgs/menu.png" height="40px" class="hamburger-img-nav" onclick="openNav()" alt="">
-            <a href="./index.html"> <img src="./imgs/logo1.png" class="navigationbar-logo" alt=""></a>
-        </div>
-        <div class="mid-flex">
-            <ul class="menu-list flex-display" type="none">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="./Pages/about-us.html">About Us</a></li>
-                <li><a href="./Pages/contact-page.html">Contact Us</a></li>
-                <li><a href="./Pages/services.html">Services</a></li>
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <img src="imgs/ice.gif" alt="ice gif"><span>BUGGU</span>
+            </div>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="Pages/about-us.html">ABOUTUS</a></li>
+                <li><a href="Pages/add-to-card.html">ADD-TO-CART</a></li>
+                <li><a href="Pages/buy-now.html">BUY-NOW</a></li>
+                <li><a href="Pages/menu-page.html">MENU</a></li>
+                <li><a href="Pages/flavour-page.html">FLAVOURS</a></li>
+                <li><a href="Pages/login-page.html">LOGIN</a></li>
+                <li><a href="Pages/review-page.html">REVIEW</a></li>
+                <li><a href="Pages/contact-page.html">CONTACT</a></li>
+                <li><a href="Pages/services.html">SERVICES</a></li>
             </ul>
         </div>
-        <div class="left-flex">
-            <img src="./icons/magnifying-glass.png" class="nav-icons" alt="" onclick="openSearch()">
-            <a href="./Pages/login-page.html"><img src="./icons/add-contact.png" class="nav-icons login-icon"
-                    alt=""></a>
-            <a href="./Pages/review-page.html"><img src="./icons/heart.png" class="nav-icons  heart-icon" alt=""></a>
-            <a href="./Pages/add-to-cart.html"><img src="./icons/shopping-bag.png" class="nav-icons" alt=""
-                    onclick="openCarts()"></a>
-        </div>
+    </nav>
+  <div class="main-page">
+    <div class="back">
+      <video autoplay loop muted style="object-fit: contain;" class="back-video">
+        <source src="video/icecream.mp4" type="video/mp4">
+
+      </video>
     </div>
-    <header>
+    <div class="top">
+      <a href="pages/blog.html"><button>Take a tour</button></a>
 
-        <div id="myOverlay" class="overlay">
-            <span class="closebtn" onclick="closeSearch()" title="Close Search">x</span><br><br><br>
-            <h1 class="search-title">Search Your Favorite Ice-Cream </h1>
-            <h2 class="search-title">And Hit Enter...</h2>
-            <div class="overlay-content">
-                <form>
-                    <input type="text" placeholder="Search Your Favorite Ice-Cream Here..." name="search">
-                </form>
-            </div>
-        </div>
-        <div class="bg-img-navigation" id="bg-img-navigation">
-            <div class="text-overlay-on-image">
-                <span class="heading">Style Destination</span>
-                <h1>Taste From The </h1>
-                <h1>Good Old Days.</h1>
-                <button class="buyNow-btn1">SHOP NOW</button>
-            </div>
+      <a id="whatsapp" href=""><img src="./png/whatsapp.png" width="60px"
+          style="position: fixed; bottom: 70px;  z-index: 2; right: 50px; transition: 1s;" alt=""> </a>
 
+    </div>
+  </div>
+  <div class="visit">
+    <span class="headings">VISIT OUR STORE</span><br>
+    <span class="colores12">__________</span> 
+    <div class="visit-images-containere">
+        <div id="carouselExample" class="carousel slide margin-left">
+            <div class="carousel-inner">
+                <div class="carousel-item active flex-display">
+                    <a href="./Pages/menu-page.html"><img src="imgs/ice1.jpeg" class="visit-img" alt=""></a>
+                    <a href="./Pages/menu-page.html"><img src="imgs/ice2.jpg" class="visit-img visit-img1 "
+                            alt=""></a>
+                    <a href="./Pages/menu-page.html"><img src="imgs/ice3.jpg" class="visit-img visit-img2"
+                            alt=""></a>
+                </div>
+
+  <div class="content-container">
+    <div class="content">
+        <h3>Single Platform <br> For All Your <br><span>Delicious Cravings</span> Needs.</h3>
+        <p>
+          Ice cream is one of the most commonly loved desserts on this planet. It has a creamy, sweet taste that many people love.
+        </p><br><br>
+
+        <button>Get Started</button>
+    </div>
+
+    <div class="content-image">
+        <img src="imgs/icecream1.jpg" alt="Image">
+    </div>
+</div>
+
+<footer>
+    <div class="footer">
+        <div class="row">
+            <a href="#"><i class="fab fa-facebook-f"></i></i></a>
+            <a href="#"> <i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
         </div>
-        <div class="slide-btn-comtain" onclick="changeBg()">
-            <img src="./icons/new-moon.png" alt="" class="slide-btn" id="slide-btn"
-                onclick="changeSlideBtn('./imgs/s5.jpg')">
-            <img src="./icons/oval.png" alt="" class="slide-btn btn-2" id="slide-btn1"
-                onclick="changeSlideBtn('./imgs/s6.jpg')">
-        </div>
-        <div id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <ul class="menu-list" type="none">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="./Pages/about-us.html">About Us</a></li>
-                <li><a href="./Pages/contact-page.html">Contact Us</a></li>
-                <li><a href="./Pages/services.html">Services</a></li>
+        <div id='facebook-icon'></div>
+
+        <div class="row">
+            <ul>
+                <li><a href="./Pages/contact.html">Contact us</a></li>
+                <li><a href="./Pages/services.html">Our Services</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">FAQ</a></li>
             </ul>
         </div>
-    </header>
-    
-    <div class="visit">
-        <span class="headings">VISIT OUR STORE</span><br>
-        <span class="colores12">__________</span>
-         <slider>
-        <div class="visit-images-containere">
-            <div id="carouselExample" class="carousel slide margin-left">
-                <div class="carousel-inner">
-                    <div class="carousel-item active flex-display">
-                        <a href="./Pages/menu-page.html"><img src="./imgs/ba20.webp" class="visit-img" alt=""></a>
-                        <a href="./Pages/menu-page.html"><img src="./imgs/ba21.webp" class="visit-img visit-img1 "
-                                alt=""></a>
-                        <a href="./Pages/menu-page.html"><img src="./imgs/ba22.webp" class="visit-img visit-img2"
-                                alt=""></a>
-                        <a href="./Pages/menu-page.html"><img src="./imgs/ba19.webp" class="visit-img visit-img3"
-                                alt=""></a>
-                    </div>
-                    <div class="carousel-item active flex-display">
-                        <a href="./Pages/menu-page.html"><img src="./imgs/home/ba23.jpg" class="visit-img" alt=""></a>
-                        <a href="./Pages/menu-page.html"><img src="./imgs/ba20.webp" class="visit-img visit-img1"
-                                alt=""></a>
-                        <a href="./Pages/menu-page.html"><img src="./imgs/ba21.webp" class="visit-img visit-img2"
-                                alt=""></a>
-                        <a href="./Pages/menu-page.html"><img src="./imgs/ba22.webp" class="visit-img visit-img3"
-                                alt=""></a>
-                    </div>
-                    <div class="carousel-item active flex-display">
-                        <a href="./Pages/menu-page.html"><img src="./imgs/ba22.webp" class="visit-img visit-img"
-                                alt=""></a>
-                        <a href="./Pages/menu-page.html"><img src="./imgs/home/ba23.jpg" class="visit-img visit-img1"
-                                alt=""></a>
-                        <a href="./Pages/menu-page.html"><img src="./imgs/ba20.webp" class="visit-img visit-img2"
-                                alt=""></a>
-                        <a href="./Pages/menu-page.html"><img src="./imgs/ba21.webp" class="visit-img visit-img3"
-                                alt=""></a>
-                    </div>
-                </div>
-                <button class="carousel-control-prev prev-btn" type="button" data-bs-target="#carouselExample"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon"
-                        style="color: black; background-color: rgb(90, 88, 88); border-radius: 10px; padding: 10px; "
-                        aria-label="Next"></span>
-                     <span class="visually-visual">Previous</span> 
-                </button>
-                <button class="carousel-control-next prev-btn" type="button" data-bs-target="#carouselExample"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon"
-                        style="color: black; background-color: rgb(90, 88, 88); border-radius: 10px; padding: 10px; "
-                        aria-label="Next"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
+
+        <div class="row">
+            Copyright © 2024 - All rights reserved
         </div>
     </div>
-     <slider end>
-    <div class="Seller-container">
-        <span class="headings ">Our Best Seller</span>
-        <span class="colores1">__________</span>
+</footer>
 
-        <center>
-             <div class="seller-heading">
-            <span onclick="newArrival()" id="newArrival">NEW ARRIVALS</span>
-            <span onclick="bestSeller()" id="bestSeller">BEST SELLER</span>
-            <span onclick="topRates()" id="topRates">TOP RATES</span>
-            <!-- </div> -->
-        </center>
-        <div class="flavour-container">
-            <div class="w3-row">
-                <div class="w3-col w3-container m4 l3 ">
-                    <div>
-                        <img src="./imgs/home/1.jpg" class="flavour-img img-fluid" id="productImage1" alt="" />
-                    </div>
-                    <div class="effect-hover">
-                        <img src="./icons/menupage-icons/shopping-bag.png" class="hover-image" title="add to cart">
-                        <img src="./icons/menupage-icons/search.png" class="hover-image" title="search" alt="">
-                        <img src="./icons/menupage-icons/wishlist.png" class="hover-image" title="white-list">
-                    </div>
-                    <div class="flavour-description">
-                        <p id="productText1">Cereal And Milk</p>
-                        <p id="price1" class="flavour-price">₹ 200.00 </p>
-                    </div>
-                </div>
-
-                <div class="w3-col w3-container m4 l3 ">
-                    <div>
-                        <img src="./imgs/home/2.jpg" class="flavour-img img-fluid" id="productImage2" alt="">
-                    </div>
-                    <div class="effect-hover">
-                        <img src="./icons/menupage-icons/shopping-bag.png" class="hover-image" title="add to cart">
-                        <img src="./icons/menupage-icons/search.png" class="hover-image" title="search">
-                        <img src="./icons/menupage-icons/wishlist.png" class="hover-image" title="white-list">
-                    </div>
-                    <div class="flavour-description">
-                        <p id="productText2"> Choco Cherry</p>
-                        <p id="price2" class="flavour-price">₹ 360.00 </p>
-                    </div>
-                </div>
-
-                <div class="w3-col w3-container m4 l3 ">
-                    <div>
-                        <img src="./imgs/home/3.jpg" class="flavour-img img-fluid" id="productImage3" alt="">
-                    </div>
-                    <div class="effect-hover">
-                        <img src="./icons/menupage-icons/shopping-bag.png" class="hover-image" title="add to cart">
-                        <img src="./icons/menupage-icons/search.png" class="hover-image" title="search ">
-                        <img src="./icons/menupage-icons/wishlist.png" class="hover-image" title="wishlist">
-                    </div>
-                    <div class="flavour-description">
-                        <p id="productText3"> Chokobar</p>
-                        <p id="price3" class="flavour-price">₹ 150.00 </p>
-                    </div>
-                </div>
-
-                <div class="w3-col w3-container m4 l3 ">
-                    <div>
-                        <img src="./imgs/home/4.jpg" class="flavour-img img-fluid" id="productImage4" alt="">
-                    </div>
-                    <div class="effect-hover">
-                        <img src="./icons/menupage-icons/shopping-bag.png" class="hover-image" title="add to cart">
-                        <img src="./icons/menupage-icons/search.png" class="hover-image" title="search ">
-                        <img src="./icons/menupage-icons/wishlist.png" class="hover-image" title="wishlist">
-                    </div>
-                    <div class="flavour-description">
-                        <p id="productText4">chocolate Wafer</p>
-                        <p id="price4" class="flavour-price">₹ 320.00 </p>
-                    </div>
-                </div>
-
-
-                <div class="w3-col w3-container m4 l3 ">
-                    <div>
-                        <img src="./imgs/home/5.jpg" class="flavour-img img-fluid" id="productImage5" alt="">
-                    </div>
-                    <div class="effect-hover">
-                        <img src="./icons/menupage-icons/shopping-bag.png" class="hover-image" title="add to cart">
-                        <img src="./icons/menupage-icons/search.png" class="hover-image" title="search ">
-                        <img src="./icons/menupage-icons/wishlist.png" class="hover-image" title="wishlist">
-                    </div>
-                    <div class="flavour-description">
-                        <p id="productText5">Cookie</p>
-                        <p id="price5" class="flavour-price">₹ 480.00 </p>
-                    </div>
-                </div>
-
-                <div class="w3-col w3-container m4 l3">
-                    <div>
-                        <img src="./imgs/home/6.jpg" class="flavour-img img-fluid" id="productImage6" alt="">
-                    </div>
-                    <div class="effect-hover">
-                        <img src="./icons/menupage-icons/shopping-bag.png" class="hover-image" title="add to cart">
-                        <img src="./icons/menupage-icons/search.png" class="hover-image" title="search ">
-                        <img src="./icons/menupage-icons/wishlist.png" class="hover-image" title="wishlist">
-                    </div>
-                    <div class="flavour-description">
-                        <p id="productText6">Cookies Cream</p>
-                        <p id="price6" class="flavour-price">₹ 260.00 </p>
-                    </div>
-                </div>
-
-                <div class="w3-col w3-container m4 l3 ">
-                    <div>
-                        <img src="./imgs/home/7.jpg" class="flavour-img img-fluid" id="productImage7" alt="">
-                    </div>
-                    <div class="effect-hover">
-                        <img src="./icons/menupage-icons/shopping-bag.png" class="hover-image" title="add to cart">
-                        <img src="./icons/menupage-icons/search.png" class="hover-image" title="search ">
-                        <img src="./icons/menupage-icons/wishlist.png" class="hover-image" title="wishlist">
-                    </div>
-                    <div class="flavour-description">
-                        <p id="productText7">Cookies Dough</p>
-                        <p id="price7" class="flavour-price">₹ 260.00 </p>
-                    </div>
-                </div>
-
-                <div class="w3-col w3-container m4 l3 ">
-                    <div>
-                        <img src="./imgs/home/8.jpg" class="flavour-img img-fluid" id="productImage8" alt="">
-                    </div>
-                    <div class="effect-hover">
-                        <img src="./icons/shopping-bag.png" class="hover-image" title="add to cart">
-                        <img src="./icons/magnifying-glass.png" class="hover-image" title="search ">
-                        <img src="./icons/heart.png" class="hover-image" title="wishlist">
-                    </div>
-                    <div class="flavour-description">
-                        <p id="productText8">Creamy Cake</p>
-                        <p id="price8" class="flavour-price">₹ 260.00 </p>
-                    </div>
-                </div>
-
-
-            </div>
-        </div>
-    </div>
-<image zoom hover>
-    <div class="margin-top margin-bottom">
-        <div class="flex-display">
-            <div class="img-size">
-                <img src="./imgs/ba16.webp" class="img-size1  float-start" alt="">
-            </div>
-            <div class="" style=" text-align: center; width: 500px; height:auto; overflow: hidden;">
-                 <img src="./imgs/home/white-bg.png" width="500px" class="white-bg" alt="">
-                <h2>Ice Cream Cone</h2>
-                <h5 style="margin-left: 10%;">Save up to 40% off</h5>
-                <button class="buyNow-btn2" style="margin-left:5%;">SHOP NOW</button>
-
-            </div>
-
-            <div class="img-size">
-                <img src="./imgs/ba18.webp" class="img-size1  float-end" alt="">
-            </div>
-        </div>
-
-
-        <!--  -->
-        <div class="flex-display">
-            <div class="container-fluid"
-                style="margin: auto; text-align: center; width:500px; height:auto; overflow: hidden;">
-                <h2>Ice Cream Cone</h2>
-                <h5 style="margin-left: 10%;">Save up to 40% off</h5>
-                <button class="buyNow-btn2" style="margin-left:5%;">SHOP NOW</button>
-
-            </div>
-
-            <div class="image-size text-center">
-                <img src="./imgs/ba17.webp" class="img-size2 img-fluid" alt="">
-            </div>
-
-            <div class="container-fluid"
-                style="margin: auto; text-align: center; width: 500px; height: auto; overflow: hidden;">
-
-                <h2>Ice Cream Cone</h2>
-                <h5 style="margin-left: 10%;">Save up to 40% off</h5>
-                <button class="buyNow-btn2" style="margin-left:5%;">SHOP NOW</button>
-
-            </div>
-
-        </div>
-    </div>
-
-    <div class="about-section flex-display">
-        <div class="w3-row-padding ">
-
-            <div class="w3-col w3-container m2 l6 s1 ">
-                <div class="about-section-dis">
-                    <p class="mb-4 description">OUR ABOUT US</p>
-                    <h3 class="mb-4">Ice Cream Drinks</h3>
-                    <p class="mb-4 description ">Summer brings with it the terrible heat, making everyone feel sluggish
-                        and
-                        <br> uncomfortable. In that
-                        weather, a glass of soft drink or a few ice cream cones is a <br> choice not to be missed
-                        <br>
-                        <br>
-                        However, not everyone knows all about that beverage. Let's climb the "time machine" <br> and
-                        discover all
-                        the history of cool ice cream!
-                        <br><br>
-
-                        Roman Emperor Nero was the first to eat ice cream. At a great party in 54, he came <br> up with
-                        an
-                        extremely strange dessert with the name "sweet snow". This dish is a <br> precursor to today's
-                        modern ice
-                        cream, it is made from the snow on the top of the <br> Apennine mountains and marinated many
-                        times
-                        with
-                        fruit and honey.
-                    </p>
-
-                </div>
-            </div>
-            <div class="w3-col w3-container m6 l6 s12 ">
-                <div>
-                    <img src="./imgs/ba-1.webp" class="img-fluid" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-    <div class="trending mt-4">
-        <h3 class="trend-label"> HOT DEALS</h3>
-        <div class="w3-row-padding ">
-
-            <div class="w3-col w3-container m4 l3 ">
-                <div>
-                    <img src="./imgs/home/1.jpg" class="flavour-img img-fluid" alt="">
-                </div>
-                <div class="effect-hover">
-                    <img src="./icons/menupage-icons/shopping-bag.png" height="20px">
-                    <img src="./icons/menupage-icons/search.png" height="20px" alt="">
-                    <img src="./icons/menupage-icons/wishlist.png" height="20px" alt="">
-                </div>
-                <div class="flavour-description">
-                    Cereal And Milk
-                    <br>
-                    <p class="flavour-price">₹ 200.00 </p>
-                </div>
-            </div>
-
-            <div class="w3-col w3-container m4 l3 ">
-                <div>
-                    <img src="./imgs/home/3.jpg" class="flavour-img img-fluid" alt="">
-                </div>
-                <div class="effect-hover">
-                    <img src="./icons/menupage-icons/shopping-bag.png" height="20px">
-                    <img src="./icons/menupage-icons/search.png" height="20px" alt="">
-                    <img src="./icons/menupage-icons/wishlist.png" height="20px" alt="">
-                </div>
-                <div class="flavour-description">
-                    Chokobar
-                    <br>
-                    <p class="flavour-price">₹ 150.00 </p>
-                </div>
-            </div>
-
-
-            <div class="w3-col w3-container m4 l3 ">
-                <div>
-                    <img src="./imgs/home/5.jpg" class="flavour-img img-fluid" alt="">
-                </div>
-                <div class="effect-hover">
-                    <img src="./icons/menupage-icons/shopping-bag.png" height="20px">
-                    <img src="./icons/menupage-icons/search.png" height="20px" alt="">
-                    <img src="./icons/menupage-icons/wishlist.png" height="20px" alt="">
-                </div>
-                <div class="flavour-description">
-                    Cookie
-                    <br>
-                    <p class="flavour-price">₹ 480.00 </p>
-                </div>
-            </div>
-
-
-            <div class="w3-col w3-container m4 l3 ">
-                <div>
-                    <img src="./imgs/home/6.jpg" class="flavour-img img-fluid" alt="">
-                </div>
-                <div class="effect-hover">
-                    <img src="./icons/menupage-icons/shopping-bag.png" height="20px">
-                    <img src="./icons/menupage-icons/search.png" height="20px" alt="">
-                    <img src="./icons/menupage-icons/wishlist.png" height="20px" alt="">
-                </div>
-                <div class="flavour-description">
-                    Cookies Cream
-                    <br>
-                    <p class="flavour-price">₹ 260.00 </p>
-                </div>
-            </div>
-
-        </div>
-        <br><br>
-        <button class="product-btn">ALL PRODUCTS</button>
-    </div>
-    <div class="menu">
-        <div class="menu-discripton">
-            <h3>ICE CREAM MENU</h3>
-            <h1>Take The Experience Of Our Delightful</h1>
-            <h1>Ice Cream Menu</h1>
-        </div>
-        <div class="flex-display menu-product">
-            <div class=" menu-card-icons">
-                <div class="card-img">
-                    <img src="./icons/cone.png" width="120px" class="img-fluid" alt="">
-                </div>
-                <div>
-                    <h2>Ice Cream Cone</h2>
-                </div>
-            </div>
-            <div class=" menu-card-icons">
-                <div class="card-img">
-                    <img src="./icons/stick-ice.png" width="120px" class="img-fluid" alt="">
-                </div>
-                <div>
-                    <h2>Ice Cream Stick</h2>
-                </div>
-            </div>
-            <div class=" menu-card-icons">
-                <div class="card-img">
-                    <img src="./icons/cup.png" width="120px" class="img-fluid" alt="">
-                </div>
-                <div>
-                    <h2>Ice Cream Cup</h2>
-                </div>
-            </div>
-            <div class=" menu-card-icons">
-                <div class="card-img">
-                    <img src="./icons/box.png" width="120px" class="img-fluid" alt="">
-                </div>
-                <div>
-                    <h2>Box Ice Cream</h2>
-                </div>
-            </div>
-        </div> 
-    </div>
-    <div class="insta-container">
-        <h3>Follow Us On Instagram!</h3>
-        @creamy_desert (ice-cream) <br>
-        <div class="single-image-container"></div>
-        <div class="flex-display  image-content">
-
-            <div class="insta-img-div">
-                <img src="./imgs/home/instagram2.webp" height="300px" class="insta-image" alt="">
-                <div class="middle-insta">
-                    <div class="insta-icon"><i class="fa-brands fa-instagram" style="height: 50px;"></i>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="insta-img-div">
-                <img src="./imgs/home/instagram3.webp" height="300px" class="insta-image" alt="">
-            </div>
-
-            <div class="insta-img-div">
-                <img src="./imgs/home/instagram4.webp" height="300px" class="insta-image" alt="">
-            </div>
-
-            <div class="insta-img-div">
-                <img src="./imgs/home/instagram5.webp" height="300px" class="insta-image" alt="">
-            </div>
-
-            <div class="insta-img-div">
-                <img src="./imgs/home/instagram6.webp" height="300px" class="insta-image" alt="">
-            </div>
-
-        </div>
-    </div>
-    </div>
-        <div class="flex-display footer-cont">
-            <div>
-                <img src="./imgs/logo1.png" alt="" id="footer-logo">
-                <h4 class="slogun">
-                    "Scoops of joy, frozen delight,<br>
-                    Taste the magic, day or night!"</h4>
-                <div class="footer mt-4">&nbsp;&nbsp;<a href="https://www.instagram.com/bhushan_potdar_19"
-                        onclick="return ready()" class="b" target="_blank"><i
-                            class="fa-brands fa-instagram fa-brand"></i></a>&emsp;<a
-                        href="https://www.linkedin.com/in/bhushan-potdar-62283a2a7/" onclick="return ready()" class="a"
-                        target="_blank"><i class="fa-brands fa-linkedin fa-brand"></i></a>&emsp;<a
-                        href="https://wa.me/7744049590" onclick="return ready()" class="b" target="_blank"><i
-                            class="fa-brands fa-whatsapp fa-brand"></i></a>
-                    &emsp;<a href="https://github.com/bhushanpotdar19" onclick="return ready()" class="b"
-                        target="_blank"><i class="fa-brands fa-github fa-brand"></i></a></div>
-                <br>
-
-
-
-            </div>
-            <div class="quick-links">
-                <UL type="none">
-                    <li>Quick Links</li>
-                    <hr>
-                    <li>
-                        <ul type="none">
-                            <li><a href="./index.html">Home</a></li>
-                            <li><a href="./Pages/about-us.html">About Us</a></li>
-                            <li><a href="./Pages/contact-page.html">Contact Us</a></li>
-                            <li><a href="./Pages/services.html">Services</a></li>
-                            <LI><a href="./Pages/menu-page.html">Menu Card</a></LI>
-                        </ul>
-                    </li>
-                </UL>
-            </div>
-            <div class="quick-links1">
-                <UL type="none">
-                    <li>Help & Information</li>
-                    <hr>
-                    <li>
-                        <ul type="none">
-                            <li><a href="">Privacy Policy</a></li>
-                            <li><a href="">Terms & Conditions</a></li>
-                            <li><a href="">Product Return</a></li>
-                            <li><a href="">Wholesale Policy</a></li>
-                            <li><a href="">Help Center</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <div class="quick-links1">
-                <UL type="none">
-                    <li>Contact Us</li>
-                    <hr>
-                    <li>
-                        <ul type="none">
-                            <li class="slogun1">1/2, Rachik House, <br> Yeolekar, College Road, <br> Nashik,
-                                Maharashtra
-                            </li>
-                            <li><a href="">0253 230 5411</a></li>
-                            <li><a href="" target="mailto">creamydesert@gmail.com</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <hr class="hr">
-        <p id="copyright" style="text-align:center;">Copyright @ Creamy Desert | All Rights Reserved.</p>
-        <img src="./icons/logoo-removebg-preview.png" class="visa-image" alt="">
-    </footer>
-    <footer class="main">
-
-        <div class="foot ">Quick Links
-            <hr>
-    
-            <div class="footer"><i class="fa-solid fa-house fa-sol"></i>&nbsp;&nbsp;<a href="./../index.html"
-                    class="b">Home</a>
-            </div>
-            <div class="footer "><i class="fa-solid fa-gear fa-sol"></i>&nbsp;&nbsp;<a href="./../Pages/services.html"
-                    class="b">Services
-                </a></div>
-            <div class="footer "><i class="fa-solid fa-list fa-sol"></i>&nbsp;&nbsp;&nbsp;<a href="./../Pages/menu-page.html"
-                    class="b">Menu</a></div>
-            <div class="footer "><i class="fa-solid fa-cart-shopping fa-sol"></i>&nbsp;&nbsp;<a href="./../Pages/product-card.html"
-                    class="b">Store</a></div>
-            <div class="footer "><i class="fa-solid fa-file-pen fa-sol"></i>&nbsp;&nbsp;<a href="./../Pages/registration.html"
-                    class="b">Registration</a></div>
-            <div class="footer "><i class="fa-solid fa-thumbs-up fa-sol"></i>&nbsp;&nbsp;<a href="./../Pages/review-page.html"
-                    class="b">Review</a></div>
-            <div class="footer "><i class="fa-solid fa-user fa-sol"></i>&nbsp;&nbsp;<a href="./../Pages/about-us.html"
-                    class="b">About Us</a></div>
-    
-    
-        </div>
-    
-    
-        <div class="contact1">Contact Us
-            <hr>
-            <div class="footer"><i class="fa-solid fa-phone-volume fa-sol"></i>&nbsp;&nbsp;<a href="tel:7744049590"
-                    class="b">+91 7744049590</a></div>
-            <div class="footer "><i class="fa-solid fa-envelope fa-sol"></i>&nbsp;&nbsp;<a
-                    href="mailto: bhushanpotdar3@gmail.com" class="bb"> bhushanpotdar3@gmail.com</a></div>
-    
-            <div class="footer mt-4">&nbsp;&nbsp;<a href="https://www.instagram.com/bhushan_potdar_19" onclick="return ready()" class="a"
-                    target="_blank"><i class="fa-brands fa-instagram fa-brand"></i></a>&emsp;<a
-                    href="https://www.linkedin.com/in/bhushan-potdar-62283a2a7/" onclick="return ready()" class="a" target="_blank"><i
-                        class="fa-brands fa-linkedin fa-brand"></i></a>&emsp;<a href="https://wa.me/7744049590" onclick="return ready()"
-                    class="a" target="_blank"><i class="fa-brands fa-whatsapp fa-brand"></i></a>
-                &emsp;<a href="https://github.com/bhushanpotdar19" onclick="return ready()" class="a" target="_blank"><i
-                        class="fa-brands fa-github fa-brand"></i></a></div>
-            <br>
-    
-        </div>
-        <div class="location">Location
-            <hr>
-            <div class="footer"><i class="fa-solid fa-location-dot fa-sol"></i></i>&nbsp;&nbsp;<a
-                    href="https://maps.app.goo.gl/TCA1th79iKR1wiRE9" class="b">107,
-                    Deur BK, Tal-Dhule, <br>Dist-Dhule -424302
-                </a></div>
-            <div class="footer "><iframe class="mapl"
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d777.7157158970201!2d74.4609393!3d20.9038021!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdeef04875b6c27%3A0xb9b55ff007fa15d1!2sWF36%2BGHV%2C%20Deur%20Budruk%2C%20Maharashtra%20424302!5e1!3m2!1sen!2sin!4v1712915607325!5m2!1sen!2sin"
-                    width="280" height="170" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-    
-        </div>
-    
-    </footer>
-    <center style="background-color: rgb(32, 31, 31); margin-bottom:0%; padding:0%; color:white ">Copyright &copy 2024
-        All
-        Rights Reserved by RTC.</center>
-    
 </body>
 
 </html>
