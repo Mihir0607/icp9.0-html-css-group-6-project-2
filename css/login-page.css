@@ -72,25 +72,22 @@ input[type="password"] {
 
 
 
-button {
-    background-color: #04AA6D;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-  }
+
   
-  button:hover {
+  .cancelbtn:hover {
     opacity: 0.8;
   }
   
   .cancelbtn {
     width: auto;
     background-color: #f44336;
-    margin-left: auto;
-    margin-right: auto;
+    color: white;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    cursor: pointer;
+    width: 70px;
+   
     
   }
 
