@@ -1,3 +1,28 @@
+
+/** body**/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color:#cadcfc;;
+  }
+/** navbar**/
+
+nav {
+    background-color: #ff8e3c;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
+  nav span{
+    color: #ff8e3c;
+    font-size: 15px;
+    margin-top: 20px;
+    padding-left: 20px;
+    font-weight: bold;
+  }
+  nav span:hover{
+    color: black;
+  }
 /** box-1**/
 .heading-img{
 height:550px;
