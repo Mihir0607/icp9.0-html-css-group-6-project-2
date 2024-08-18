@@ -1,0 +1,99 @@
+body{
+ margin:0;
+ padding: 0;
+ font-family: "space Grotesk sans-serif";
+ font-size: auto;
+ background-color: #fff;
+ }
+ .main img{
+ width: 100%;
+ height: 600px;
+ }
+.line2{
+ text-align: center;
+ padding: 10px 20px;
+ font-size: 35px;
+ }
+  .cream1{
+    background-color: #fff;
+    border: 3px solid black;
+    width: 350px;
+   text-align: center;
+   margin-inline-start: 39%;
+    }
+    .line{
+ 
+      color: #e83e8c;
+      text-align: center;
+      margin-inline-start: 45px;
+    }
+    .line7{
+      width: 320px;
+      background-color: bisque;
+      border: 3px solid black;
+   }
+   .line20{
+    width: 320px;
+    background-color: bisque;
+    border: 3px solid black;
+    text-align: center;
+ }
+ .line9{
+  width: 320px;
+  background-color: bisque;
+  border: 3px solid black;
+  text-align: center;
+}
+.line10{
+  width: 320px;
+  background-color: bisque;
+  border: 3px solid black;
+  
+}
+.ice-cream-card-container{
+  display :flex;
+  justify-content: space-around;
+ 
+}
+.line11{
+  text-align: center;
+  margin-inline-start: 25% ;
+  color: #e83e8c;
+  padding: 2px ;
+  font-size: 20px;
+}
+.line17{
+  text-align: center;
+  margin-inline-start: 25% ;
+  color: #e83e8c;
+  justify-content: space-evenly;
+  font-size: 20px;
+}
+.img1{
+  
+  width: 320px;
+  align-items: center;
+  margin-inline-start: 25% ;
+  border:3px solid black;
+  
+}
+
+.img2{
+ margin-inline-start:25%;
+ text-align: center;
+ margin: 80px;
+}
+.img-container{
+  display: flex;
+  margin-right: 100px;
+  
+}
+.line15{
+  background-color: #fff;
+  width: 300px;
+  border: 2px solid black;
+}
+.card-cantainer{
+  display: flex;
+  justify-content: space-around;
+}
