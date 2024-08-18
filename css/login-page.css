@@ -1,3 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#272343;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    background-color: rgb(189, 107, 230);
+}
+
+.nav-logo{
+    height: 90px;
+}
+
+.nav-logo-heading{
+    display: flex;
+    align-items: center; 
+}
+
+.nav{
+    margin: 0 20px;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+
+
+
+
 
 body {
     background-color: #f3d2c1;
