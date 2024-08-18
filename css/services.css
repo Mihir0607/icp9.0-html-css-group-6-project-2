@@ -88,13 +88,11 @@
     background-color: #ffd803;
 
 }
-.imgcontain{
-    padding:50%;
-}
+
  
 .service-img-container{
     border-radius:50%;
-    height: 200px;
-    margin:0;
+    height: 250px;
+    margin:0px 10px;
     font-display: flex;
 }
