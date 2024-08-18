@@ -50,3 +50,8 @@ body{
   border: 3px solid black;
   
 }
+.ice-cream-card-container{
+  display :flex;
+  justify-content: space-around;
+ 
+}
