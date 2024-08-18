@@ -42,7 +42,7 @@ label {
     font-weight: bold;
     color:#001858;
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 2px;
+    margin-bottom: 3px;
 }
 
 input[type="text"],
@@ -83,7 +83,7 @@ input[type="password"] {
     background-color: #f44336;
     color: white;
     padding: 10px;
-    margin: 8px 0;
+    margin: 8px 8px;
     border: none;
     cursor: pointer;
     width: 70px;
@@ -97,10 +97,8 @@ input[type="password"] {
     float: right;
     padding-top: 16px;
   }
-  .container {
-    padding: 8px;
-    background-color: #f9f2e2;
-  }
+  
+    
   
   /* small screens */
   @media screen and (max-width: 300px) {
