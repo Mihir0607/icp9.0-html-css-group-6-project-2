@@ -3,7 +3,7 @@ body{
  padding: 0;
  font-family: "space Grotesk sans-serif";
  font-size: auto;
- background-color: #fff;
+ background-color: #cadcfc;
  }
  .main img{
  width: 100%;
@@ -75,6 +75,7 @@ body{
   align-items: center;
   margin-inline-start: 25% ;
   border:3px solid black;
+
   
 }
 
