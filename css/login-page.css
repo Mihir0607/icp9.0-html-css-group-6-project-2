@@ -91,14 +91,14 @@ button {
   }
 
 
-  span.psw {
+  span.pass {
     float: right;
     padding-top: 16px;
   }
   
   /* small screens */
   @media screen and (max-width: 300px) {
-    span.psw {
+    span.pass {
        display: block;
        float: none;
     }
