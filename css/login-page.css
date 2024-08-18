@@ -87,9 +87,8 @@ button {
   
   .cancelbtn {
     width: auto;
-    padding: 4px 18px;
     background-color: #f44336;
-    align-items: left;
+    align-items:self-start;
     
   }
 
