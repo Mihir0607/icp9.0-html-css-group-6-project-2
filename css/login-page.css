@@ -1,3 +1,56 @@
+
+
+/* small device */
+@media screen and (max-width: 600px) {
+nav {
+    background-color: #ff8e3c;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
+  nav span{
+    color: #ff8e3c;
+    font-size: 15px;
+    margin-top: 20px;
+    padding-left: 20px;
+    font-weight: bold;
+  }
+  nav span:hover{
+    color: black;
+  }
+  
+  .logo img {
+    height: 50px;
+    margin-left: 50px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  nav ul li {
+    float: left;
+  }
+  
+  nav ul li a {
+    font-size: 15px;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background-color: #eff0f3;
+    border-radius: 7px;
+  }
+
+  
+}
+
+
 body {
     background-color: #e3f6f5;
     display: flex;
@@ -58,4 +111,92 @@ input[type="password"] {
 
 .login-button:hover {
     background-color: #ff856e;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Space+Grotesk:wght@300..700&display=swap');
+
+footer {
+    padding: 40px;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+
+}
+.footer-cont{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#footer-logo {
+    height: 100px;
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
+
+.slogun {
+    text-align: left;
+    display: inline-block;
+    overflow: hidden;
+    margin-left: 15%;
+    font-size: 18px;
+
+}
+.quick-links{
+  margin-left: 0%;
+  font-size: 20px;
+}
+.quick-links li a{
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    text-decoration: none;
+    color: #000;
+    margin-top: 10%;
+    transition: all .6s ease-in-out;
+}
+.quick-links li a:hover{
+    color: #e83e8c;
+    margin-left: 5px;
+}
+.quick-links1{
+    margin-left: 5%;
+    font-size: 20px;
+  }
+  .quick-links1 li a{
+      font-family: "Space Grotesk", sans-serif;
+      font-optical-sizing: auto;
+      text-decoration: none;
+      color: #000;
+      margin-top: 10%;
+      transition: all .6s ease-in-out;
+  }
+  .quick-links1 li a:hover{
+      color: #e83e8c;
+      margin-left: 10px;
+  }
+  .slogun1 {
+    text-align: left;
+    display: inline-block;
+    overflow: hidden;
+    margin-left: 3%;
+    font-size: 18px;
+
+}
+.hr{
+    width: 100%;
+    color: transparent;
+    background: #e91578;
+    height: 3px !important;
+}
+
+hr{
+    width: 60px;
+    color: transparent;
+    background: #e91578;
+    height: 3px !important;
+}
+.visa-image{
+    height: 20px;
+    margin-left: 85%;
 }
