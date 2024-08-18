@@ -88,3 +88,12 @@ body{
   margin-right: 100px;
   
 }
+.line15{
+  background-color: #fff;
+  width: 300px;
+  border: 2px solid black;
+}
+.card-cantainer{
+  display: flex;
+  justify-content: space-around;
+}
