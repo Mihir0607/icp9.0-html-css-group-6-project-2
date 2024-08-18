@@ -35,6 +35,7 @@ body {
 .input-group {
     margin-bottom: 5px;
     text-align: left;
+    padding-right: 5px;
 }
 
 label {
