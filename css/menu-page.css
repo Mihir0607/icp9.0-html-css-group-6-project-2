@@ -5,24 +5,11 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color:#cadcfc;;
+    background-color:#e3f6f5;
   }
 /** navbar**/
 
-nav {
-  background-color: #ff8e3c;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-}
-nav span{
-  color: #ff8e3c;
-  font-size: 15px;
-  margin-top: 20px;
-  padding-left: 20px;
-  font-weight: bold;
-}
-nav span:hover{
-  color: black;
-}
+
 /** box-1**/
 .heading-img{
 height:550px;
@@ -39,7 +26,7 @@ margin: none;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        background-color: rgb(252, 218, 222);
+        background-color: #f5e79a;
         padding: 0;
         margin: 0;
     }
@@ -56,6 +43,7 @@ margin: none;
     }
     .p1{
         font-size:20px;
+        color: #272343;
     }
     /** box-3**/
     .text-center1{
@@ -64,6 +52,8 @@ margin: none;
     .heading1{
         font-size: 30px;
         color:#272343;
+        font-family: Copse;
+        font-size: 40px;
     }
 
        /** box-4 **/
@@ -81,20 +71,19 @@ margin: none;
 
         /** box-5 circle card**/
         .img-tiger{
-            height: 230px;
+            height: 200px;
             border-radius: 100%;
             display: flex;
             flex-direction: row;
-            justify-content: space-evenly;
-            background-color:#cadcfc;;
-             margin: 0px;
+            background-color:#cadcfc;
+             margin: 2pxpx;
             padding: 0px;
              }
         .img-tiger:hover {
             border-radius:100%;
             transition: 2s;
-            margin-left: 30px;
-     
+            margin-left:40px;
+            margin-bottom: 20px;
              }
              
 
@@ -120,16 +109,18 @@ margin: none;
             margin-bottom:10px;
             padding:0;
             font-size: 30px;
+            font-family: Copse;
+            color: #272343;
         }
         .menu-discription{
             font-size:20px;
-            font-family: dancing script;
+            font-family: EB Garamond;
             margin-top: 0px;
             color:rgb(2, 2, 94);
         }
         .menu-btn{
-            background-color: #f8679f;
-            color: white;
+            background-color:#f3dc5c;
+            color: black;
             border-radius:black solid 10px;
             border-radius:10px;
             padding:12px 22px;
@@ -137,10 +128,11 @@ margin: none;
             margin-bottom:5px;
             margin-top:0 ;
             font-size:15px;
+            font-size: 15px;
         }
         .menu-btn:hover{
             border:1px solid black 5px;
-            background-color: rgb(250, 37, 154);
+            background-color: #ffd803;
          
             transition: 1.5s;
         }
@@ -173,62 +165,30 @@ margin: none;
 
          /** box-8 card box**/
 
-         .footer {
-            background: #ff8e3c;
-            margin-top: 100px;
-            padding: 50px;
-            font-family: Arial, Helvetica, sans-serif;
-            text-align: center;
-            background-color: #;
-            margin-top: 100px;
-            padding: 90px;
+          .heading22{
+            color: #272343;
+            font-family: DM Serif Text;
+         
           }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           
-          .footer .row {
-            width: 100%;
-            margin: 1% 0%;
-            padding: 0.6% 0%;
-            color: white;
-            font-size: 0.8em;
-          }
           
-          .footer .row a {
-            text-decoration: none;
-            color: white;
-            transition: 0.5s;
-          }
+       
           
-          .footer .row a:hover {
-            color: grey;
-          }
-          
-          .footer .row ul {
-            width: 100%;
-          }
-          
-          .footer .row ul li {
-            display: inline-block;
-            margin: 0px 30px;
-          }
-          
-          .footer .row a i {
-            font-size: 2em;
-            margin: 0% 1%;
-          }
-          
-          @media (max-width:720px) {
-            .footer {
-                text-align: left;
-                padding: 5%;
-            }
-          
-            .footer .row ul li {
-                display: block;
-                margin: 10px 0px;
-                text-align: left;
-            }
-          
-            .footer .row a i {
-                margin: 0% 3%;
-            }
-          }
