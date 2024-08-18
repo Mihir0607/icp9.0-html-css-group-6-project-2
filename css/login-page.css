@@ -82,8 +82,8 @@ input[type="password"] {
     width: auto;
     background-color: #f44336;
     color: white;
-    padding: 5px;
-    margin: 5px 0;
+    padding: 10px;
+    margin: 8px 0;
     border: none;
     cursor: pointer;
     width: 70px;
@@ -98,7 +98,7 @@ input[type="password"] {
     padding-top: 16px;
   }
   .container {
-    padding: 3px;
+    padding: 8px;
     background-color: #f9f2e2;
   }
   
@@ -113,5 +113,3 @@ input[type="password"] {
     }
 
   
-
-
