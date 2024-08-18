@@ -10,19 +10,19 @@ body {
 /** navbar**/
 
 nav {
-    background-color: #ff8e3c;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-  }
-  nav span{
-    color: #ff8e3c;
-    font-size: 15px;
-    margin-top: 20px;
-    padding-left: 20px;
-    font-weight: bold;
-  }
-  nav span:hover{
-    color: black;
-  }
+  background-color: #ff8e3c;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+nav span{
+  color: #ff8e3c;
+  font-size: 15px;
+  margin-top: 20px;
+  padding-left: 20px;
+  font-weight: bold;
+}
+nav span:hover{
+  color: black;
+}
 /** box-1**/
 .heading-img{
 height:550px;
@@ -63,6 +63,7 @@ margin: none;
     }
     .heading1{
         font-size: 30px;
+        color:#272343;
     }
 
        /** box-4 **/
@@ -85,7 +86,9 @@ margin: none;
             display: flex;
             flex-direction: row;
             justify-content: space-evenly;
-           
+            background-color:#cadcfc;;
+             margin: 0px;
+            padding: 0px;
              }
         .img-tiger:hover {
             border-radius:100%;
@@ -93,6 +96,7 @@ margin: none;
             margin-left: 30px;
      
              }
+             
 
           
                 /** box-6 card box**/
@@ -141,7 +145,7 @@ margin: none;
             transition: 1.5s;
         }
         .menu-card:hover{
-            box-shadow: -4px 4px 10px 2px  #f1679c;
+            box-shadow: -4px 4px 10px 2px  #ffd803;
             transition: 1.5s;
             background-color: white;
         }
