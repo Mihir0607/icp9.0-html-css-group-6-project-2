@@ -25,11 +25,11 @@ body {
     background-color: #fef6e4;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 2px 2px 2px 2px #f582ae;
+    box-shadow:#f582ae;
     text-align: center;
     width: 100%;
     max-width: 450px;
-    border: 2px #f582ae;
+    border: 5px #f582ae;
     
 }
 
