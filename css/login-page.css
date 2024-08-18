@@ -75,7 +75,6 @@ input[type="password"] {
 button {
     background-color: #04AA6D;
     color: white;
-    padding: 14px 20px;
     margin: 8px 0;
     border: none;
     cursor: pointer;
@@ -87,9 +86,10 @@ button {
   }
   
   .cancelbtn {
+    background-color: #f44336;
     width: auto;
     background-color: #f44336;
-    align-items:self-start;
+    
     
   }
 
