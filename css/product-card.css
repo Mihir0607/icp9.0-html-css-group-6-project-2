@@ -32,3 +32,9 @@ body{
       background-color: bisque;
       border: 3px solid black;
    }
+   .line20{
+    width: 320px;
+    background-color: bisque;
+    border: 3px solid black;
+    text-align: center;
+ }
