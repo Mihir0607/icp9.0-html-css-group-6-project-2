@@ -71,6 +71,7 @@ input[type="password"] {
 }
 
 
+
 button {
     background-color: #04AA6D;
     color: white;
@@ -96,6 +97,10 @@ button {
   span.pass {
     float: right;
     padding-top: 16px;
+  }
+  .container {
+    padding: 16px;
+    background-color: #f5f1e8;
   }
   
   /* small screens */
