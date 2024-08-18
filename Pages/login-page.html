@@ -11,19 +11,26 @@
 <body>
     <div class="login-container">
         <img src="/imgs/Login/hand-drawn-beach-club-logo-design.png" class="login-image">
-        <h1>Ice Cream Shop</h1>
         <form>
             <div class="input-group">
                 <label for="username">Username</label>
-                <input type="text" id="username" name="username" >
+                <input type="text" id="username" name="username" placeholder="Enter Username" >
             </div>
             <div class="input-group">
                 <label for="password">Password</label>
-                <input type="password" id="password" name="password">
+                <input type="password" id="password" name="password"  placeholder="Enter Password" >
             </div>
             <button type="submit" class="login-button">Login</button>
-
+            <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+              </label>
+            </div>
         </form>
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" class="cancelbtn">Cancel</button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+
     </div>
 
    
