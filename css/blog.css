@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn {
+    height: 40px;
+    width: 20%;
+    outline: none;
+    border: none;
+    background: rgb(248, 26, 92);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem auto;
+}
+.btn:hover{
+    background-color: #c51b70;
+}
+
+.container-two {
+    text-align: center;
+    margin-top: 55px;
+}
+
+.section-im {
+    margin-bottom: 25px;
+    width: 100%;
+
+}
+
+.main-img {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main-image {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5rem;
+}
+.main-image1 {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+
+.head-title {
+    font-size: 35px;
+    font-family: "Abril Fatface", serif;
+    letter-spacing: 2px;
+}
+
+.main-div {
+
+    background-size: 100% auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url(./../imgs/blog-page/main.png);
+    width: 100%;
+    height: 100vh;
+}
+
+
+h1 {
+    font-size: 64px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 3px 3px 5px #000;
+    text-align: center;
+    margin-left: 50rem;
+    padding-top: 20rem;
+}
+
+h6 {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-shadow: 3px 3px 5px #000000;
+    text-align: center;
+    margin-left: 50rem;
+    padding-top: 2rem;
+}
+
+h5 {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ff0099;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+p {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.section-heading {
+    font-size: 54px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ff0099;
+    text-shadow: 3px 3px 5px #5e4d4d;
+    text-align: center;
+    margin: 5rem;
+}
+
+.text {
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.button {
+    margin-top: 25px;
+    margin-bottom: 50px
+}
+
+.img-fluid {
+    width: 350px;
+    height: 250px;
+}
+
+.img-fluid:hover {
+    box-shadow: rgb(255, 72, 0) 0px 3px 10px;
+
+}
+
+.main-head {
+    text-align: center;
+    font-family: "Abril Fatface", serif;
+    letter-spacing: 2px;
+}
+
+
+
+.read-more-target,
+.read-more-trigger_opened {
+  display: none;
+}
+.read-more-state:checked ~ .read-more-wrap .read-more-target,
+.read-more-state:checked ~ .read-more-trigger_opened {
+  display: block;
+}
+.read-more-state:checked ~ .read-more-trigger_closed {
+  display: none;
+}
+
+
+.para{
+    font-size: 17px;
+    color: #ff009986;
+}
+.read{
+    color: #ff00c8bc;
+
+}

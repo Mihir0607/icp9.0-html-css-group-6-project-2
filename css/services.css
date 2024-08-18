@@ -1,0 +1,64 @@
+.pageback{
+    background-image: url(https://cdn.vectorstock.com/i/500p/29/14/cartoon-ice-cream-frozen-dessert-seamless-pattern-vector-46452914.jpg);
+}
+.backpage{
+    background-size: 100% auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url(./../imgs/services/main.jpg);
+    width: 100%;
+    height: 100vh;
+}
+
+.subtitle-highlight{
+    background-color: #8bd3dd;
+    font-weight: bold;
+    padding: 2px 4px;
+    border-radius: 10px;
+}
+.service-heading{
+    margin-top: 50px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.service-card{
+    background-color: #fff;
+    width:350px;
+    height:150;
+    padding:10px;
+    border-radius: 5px;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 2px 2px 5px 1px black;
+}
+.service-img{
+    
+    height:90px;
+    display: block;
+    margin: 10px auto;
+}
+.text-center{
+    text-align: center;
+}
+.text-font{
+    font-size: 25px;
+}
+.info-font{
+    font-size: 18px;
+}
+.service-card:hover {
+    cursor: pointer;
+}
+.service-title {
+    font-size: 64px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 3px 3px 5px #000;
+    text-align:center;
+    margin-left: 50px;
+    padding-top: 20px;
+
+}
