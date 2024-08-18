@@ -55,3 +55,17 @@ body{
   justify-content: space-around;
  
 }
+.line11{
+  text-align: center;
+  margin-inline-start: 25% ;
+  color: #e83e8c;
+  padding: 2px ;
+  font-size: 20px;
+}
+.line17{
+  text-align: center;
+  margin-inline-start: 25% ;
+  color: #e83e8c;
+  justify-content: space-evenly;
+  font-size: 20px;
+}
