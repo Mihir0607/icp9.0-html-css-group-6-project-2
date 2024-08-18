@@ -69,3 +69,22 @@ body{
   justify-content: space-evenly;
   font-size: 20px;
 }
+.img1{
+  
+  width: 320px;
+  align-items: center;
+  margin-inline-start: 25% ;
+  border:3px solid black;
+  
+}
+
+.img2{
+ margin-inline-start:25%;
+ text-align: center;
+ margin: 80px;
+}
+.img-container{
+  display: flex;
+  margin-right: 100px;
+  
+}
