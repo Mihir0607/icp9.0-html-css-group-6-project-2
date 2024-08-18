@@ -1,0 +1,191 @@
+
+/** body**/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color:#e3f6f5;
+  }
+/** navbar**/
+
+
+/** box-1**/
+.heading-img{
+height:550px;
+width:1500px;
+padding: none;
+margin: none;
+}
+/** box-2**/
+.heading-img1{
+    height:500px;
+    width:800px;
+    }
+    .box1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        background-color: #f5e79a;
+        padding: 0;
+        margin: 0;
+    }
+    .box2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 35px;
+    }
+    .box3{
+        display: flex;
+        flex-direction:row-reverse;
+        justify-content:end;
+    }
+    .p1{
+        font-size:20px;
+        color: #272343;
+    }
+    /** box-3**/
+    .text-center1{
+        text-align: center;
+    }
+    .heading1{
+        font-size: 30px;
+        color:#272343;
+        font-family: Copse;
+        font-size: 40px;
+    }
+
+       /** box-4 **/
+
+       .img-tiger2{
+        height: 150px;
+        border-radius: 50%;
+        
+         }
+    .img-tiger2:hover {
+        border-radius: 20px;
+        transition: 2s;
+        margin-left: 30px;
+         }
+
+        /** box-5 circle card**/
+        .img-tiger{
+            height: 200px;
+            border-radius: 100%;
+            display: flex;
+            flex-direction: row;
+            background-color:#cadcfc;
+             margin: 2pxpx;
+            padding: 0px;
+             }
+        .img-tiger:hover {
+            border-radius:100%;
+            transition: 2s;
+            margin-left:40px;
+            margin-bottom: 20px;
+             }
+             
+
+          
+                /** box-6 card box**/
+        .menu-card{
+            background-color:white;
+            width:260px;
+            padding:20px;
+            margin:20px;
+            border-radius: 10px;
+            box-shadow: -5px 5px 10px 2px #333333;
+            border: 0.5px solid #737373;
+        }
+        
+        .menu-icon{
+            height:210px;
+            width:200px;
+            display: block;
+            margin:10px auto;
+        }
+        .menu-title{
+            margin-bottom:10px;
+            padding:0;
+            font-size: 30px;
+            font-family: Copse;
+            color: #272343;
+        }
+        .menu-discription{
+            font-size:20px;
+            font-family: EB Garamond;
+            margin-top: 0px;
+            color:rgb(2, 2, 94);
+        }
+        .menu-btn{
+            background-color:#f3dc5c;
+            color: black;
+            border-radius:black solid 10px;
+            border-radius:10px;
+            padding:12px 22px;
+            margin:0px 70px;
+            margin-bottom:5px;
+            margin-top:0 ;
+            font-size:15px;
+            font-size: 15px;
+        }
+        .menu-btn:hover{
+            border:1px solid black 5px;
+            background-color: #ffd803;
+         
+            transition: 1.5s;
+        }
+        .menu-card:hover{
+            box-shadow: -4px 4px 10px 2px  #ffd803;
+            transition: 1.5s;
+            background-color: white;
+        }
+        .card-container{
+            display:flex;
+            flex-wrap: wrap;
+            justify-content:space-evenly;
+        }
+        .text6{
+            font-family: dancing script;
+            color:#001858;
+        }
+        .text-3{
+            font-size: 20px;
+        }
+           /** box-7 card box**/
+
+        .box8{
+         display:flex;
+        }
+
+        .footer-img{
+         margin:0 2px;
+        }
+
+         /** box-8 card box**/
+
+          .heading22{
+            color: #272343;
+            font-family: DM Serif Text;
+         
+          }
+
+
+   /** box-8 circle box**/
+
+
+
+
+
+
+
+
+
+
+
+
+          
+          
+       
+          
