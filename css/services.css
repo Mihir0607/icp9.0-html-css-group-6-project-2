@@ -71,8 +71,6 @@
     right: 50px;
     top: auto;
 
- 
-
 }
 .service-title2 {
 
@@ -93,4 +91,10 @@
 .imgcontain{
     padding:50%;
 }
-   
+ 
+.service-img-container{
+    border-radius:50%;
+    height: 200px;
+    margin:0;
+    font-display: flex;
+}
