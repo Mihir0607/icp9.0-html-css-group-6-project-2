@@ -2,22 +2,30 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-color:#cadcfc;;
+  background-color: #cadcfc;
 }
 
 nav {
-  background-color: #ff8e3c;
+  background-color:#ffd803;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 nav span{
-  color: #ff8e3c;
+  color: #fff;
   font-size: 15px;
   margin-top: 20px;
   padding-left: 20px;
   font-weight: bold;
 }
 nav span:hover{
-  color: black;
+  color: #cadcfc;
+}
+
+.back {
+  background-color: #bae8e8; 
+  width: 100%;
+  display: flex;
+  justify-content:space-around;
+  align-content: space-around;
 }
 
 .main-page {
@@ -28,15 +36,9 @@ nav span:hover{
   background-color: #000;
 }
 
-.back {
-  background-color: black;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
 .container .logo{
   display: flex;
+  font-size: medium;
 }
 .top {
   text-align: center;
@@ -54,7 +56,7 @@ nav span:hover{
 .visit {
   display: block;
   justify-content: center;
-  align-items: center;
+  align-items:center;
   margin-top: 5%;
 }
 .colores12 {
@@ -69,6 +71,32 @@ nav span:hover{
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
+  font size: 50px; ;
+}
+.top button {
+  font-size: 2vw;
+  top: 6vw;
+  right: 25.5vw;
+  padding: 1vw 4vw;
+  position: relative;
+  background: linear gradient(-45deg, #B8C0FF 0%, #8f01ff 100% );
+  border: none;
+  transition: 0.5s;
+  font-weight: 600;
+  border-radius: 2px;
+}
+
+.top button:hover{
+  cursor: pointer;
+}
+.top button:hover {
+  background-color: #e7c6ff;
+  background-color: transparent; 
+  scale: 0.89;
+}
+.logo img {
+  height: 50px;
+  margin-left: 50px;
 }
 .headings {
   font-family: "Space Grotesk", sans-serif;
@@ -81,11 +109,11 @@ nav span:hover{
 
 .visit-images-containere {
   grid-column: auto;
-  gap: 20px;
+  gap: 10px;
   margin-top: 50px;
 }
 .visit-img {
-  height: 300px;
+  height: 260px;
   margin: 2%;
   border-radius: 50%;
   padding: 12px;
@@ -100,7 +128,7 @@ nav span:hover{
 }
 
 .logo img {
-  height: 50px;
+  height: 70px;
   margin-left: 50px;
 }
 
@@ -125,16 +153,10 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color: #eff0f3;
+  background-color: #0036b1;
   border-radius: 7px;
 }
 
-
-body {
-  margin: 35px auto;
-  text-align: center;
-  display: block;
-}
 
 /* small device */
 @media screen and (max-width: 600px) {
@@ -168,10 +190,24 @@ body {
       width: 100px;
       border-radius: 10px;
       border: none;
-      background-color: blue;
+      background-color: #00246b;
       color: #fff;
       margin-left: 105px;
       text-align: center;
+  }
+  .main-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #000;
+  }
+  .back {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
   }
 
 }
@@ -208,8 +244,8 @@ body {
       width: 100px;
       border-radius: 10px;
       border: none;
-      background-color: blue;
-      color: blue;
+      background-color: #00246b;
+      color: #fff;
       margin-left: 180px;
   }
 }
@@ -246,8 +282,8 @@ body {
       width: 100px;
       border-radius: 10px;
       border: none;
-      background-color: blue;
-      color: blue;
+      background-color: #00246b;
+      color: #fff;
       margin-left: 230px;
   }
 }
@@ -281,7 +317,7 @@ body {
 }
 
 .content h3 span {
-  color: #ff8e3c;
+  color: #00246b;
 }
 
 .content p {
@@ -295,12 +331,12 @@ body {
   width: 100px;
   border-radius: 10px;
   border: none;
-  background-color: blue;
-  color: white;
+  background-color: #00246b;
+  color: #fff;
 }
 
 .content button:hover {
-  background-color: #ff8e3c;
+  background-color: #0036b1;
 }
 
 .content-image img {
@@ -310,15 +346,15 @@ body {
   margin-right: 90px;
 }
 
+
+
+
 .footer {
-  background: #ff8e3c;
+  background: #ffd803;
   margin-top: 100px;
   padding: 50px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  background-color: #;
-  margin-top: 100px;
-  padding: 90px;
 }
 
 .footer .row {
