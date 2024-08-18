@@ -97,6 +97,7 @@ margin: none;
             border-radius: 10px;
             box-shadow: -5px 5px 10px 2px #333333;
             border: 0.5px solid #737373;
+            
         }
         
         .menu-icon{
@@ -139,7 +140,7 @@ margin: none;
         .menu-card:hover{
             box-shadow: -4px 4px 10px 2px  #ffd803;
             transition: 1.5s;
-            background-color: white;
+            background-color:#e3f6f5;
         }
         .card-container{
             display:flex;
