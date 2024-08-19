@@ -7,7 +7,8 @@
 }
 
 body {
-  background-image: url("https://media.istockphoto.com/id/1372231654/vector/illustration-of-a-light-pink-marbled-background.jpg?s=612x612&w=0&k=20&c=bB-_ZOiQyNMk2jSlFl4nSE30FYiR-QwP3awauDgEmPk=");
+  background-image: url("https://img.freepik.com/premium-photo/various-flavors-ice-cream-waffle-pink-pastel-background_123827-30550.jpg");
+  opacity: 0.7;
   background-size: cover;
   height: 100vh;
   display: flex;
@@ -20,7 +21,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #fef6e4;
+  background-color: #ffffff;
   padding: 10px 15px;
   flex-wrap: wrap;
 }
@@ -78,14 +79,14 @@ body {
 
 .login-container {
   align-items: center;
-  background-color: #f3e2f0b7;
+  background-color: #ffffff;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 2px 2px 5px 6px #f582ae;
+  box-shadow: 2px 2px 5px 6px #f2e6eb;
   text-align: center;
   width: 100%;
   max-width: 450px;
-  border: 5px solid #f582ae;
+  border: 5px solid #ffffff;
   margin: 50px auto;
 }
 
@@ -185,5 +186,62 @@ span.pass {
 @media (max-width: 480px) {
   .logo {
       margin-bottom: 10px;
+  }
+}
+
+.footer {
+  background: #ffffff;
+  margin-top: 100px;
+  padding: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.footer .row {
+  width: 100%;
+  margin: 1% 0%;
+  padding: 0.6% 0%;
+  color: white;
+  font-size: 0.8em;
+}
+
+.footer .row a {
+  text-decoration: none;
+  color: rgb(11, 11, 11);
+  transition: 0.5s;
+}
+
+.footer .row a:hover {
+  color: rgb(36, 6, 75);
+}
+
+.footer .row ul {
+  width: 100%;
+}
+
+.footer .row ul li {
+  display: inline-block;
+  margin: 0px 30px;
+}
+
+.footer .row a i {
+  font-size: 2em;
+  margin: 0% 1%;
+}
+
+@media (max-width:720px) {
+  .footer {
+      text-align: left;
+      padding: 5%;
+  }
+
+  .footer .row ul li {
+      display: block;
+      margin: 10px 0px;
+      text-align: left;
+  }
+
+  .footer .row a i {
+      margin: 0% 3%;
   }
 }
