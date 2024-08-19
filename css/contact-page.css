@@ -129,3 +129,277 @@
         padding-top: 25px;
     }
   }
+
+
+
+
+  /* header */
+  @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Space+Grotesk:wght@300..700&display=swap');
+header{
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+}
+.bg-img-navigation{
+    background-image: url("./../png/s1.png");  /* The image used as the background */
+    min-height: 80vh;
+    position: relative;
+    background-size:cover;
+    /* width: 100%;                     Set the type of gradient (linear or radial) */
+}
+.navigationbar-logo{
+  height: 60px;
+
+}
+.hamburger{
+  display: none;
+}
+.flex-display{
+    display: flex;
+}
+.right-flex{
+    position: absolute;
+    left: 50px;
+    cursor: pointer;
+}
+.left-flex{
+    position: absolute;
+    right: 50px;
+}
+.mid-flex{
+    position: absolute;
+    left:  30%;
+    text-align: center;
+    display: block;
+    justify-content: space-around;
+    z-index: 999;
+}
+.menu-list li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #000;
+    margin: 20px;
+    transition: .5s;
+}
+.menu-list li a:hover{
+    color: #e83e8c;;
+}
+.nav-icons{
+    height: 27px;
+    margin: 10px;
+    cursor: pointer;
+} 
+.nav-container-main1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+/* padding: 10px; */
+    margin: auto;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    box-shadow: 0px 1px 15px #a3a3a3;
+    position: sticky;
+    top: 0%;
+    z-index:  1000;
+}
+.heading{
+    font-size: 20px;
+    margin-bottom: -2px;
+}
+.text-overlay-on-image{
+    text-align: left;
+    color: #000;
+    width: 46%;
+    float: left;
+    margin-top: 180px;
+    margin-left: 10%;
+    font-size: 30px;
+    transition: ease-in;
+}
+.buyNow-btn1{
+    border: 1px solid black;
+    margin: 20px;
+    padding: 10px 20px;
+    background-color:#000;
+    font-size: 10px;
+    color: #fff;
+    border-radius: 60px;
+    font-weight: bold;
+    font-family: "Space Grotesk", sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all .3s ease-out;
+}
+.buyNow-btn1:hover{
+    background-color:transparent;
+    color: black;
+}
+.slide-btn-comtain{
+    display: flex;
+    position: absolute;
+    bottom: 1px;
+    left: 60%;
+   
+}
+.slide-btn{
+    height: 20px;
+    cursor: pointer;
+    background-color: transparent;
+
+}
+.btn-2{
+    height: 20px;
+    margin-left: 40% ;
+    background-color: transparent;
+
+}
+
+/* The overlay effect with black background */
+.overlay {
+    height: 70%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1999;
+    top: 0;
+    left: 0;
+    transition: 0.5s; 
+    background-color: rgb(255,255,255);
+    background-color: rgba(255,255,255); /* Black with a little bit see-through */
+  }
+  
+  /* The content */
+  .overlay-content {
+    position: relative;
+    top: 46%;
+    width: 80%;
+    text-align: center;
+    margin-top: 30px;
+    margin: auto;
+    transition: 0.5s; 
+  }
+  .search-title{
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: bold;
+    text-align: center;
+
+  }
+  
+  /* Close button */
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 40px;
+    font-family: "Space Grotesk", sans-serif;
+    cursor: pointer;
+    color: black;
+  }
+  
+  .overlay .closebtn:hover {
+    color: #e83e8c;;
+  }
+  
+  /* Style the search field */
+  .overlay input[type=text] {
+    padding: 15px;
+    font-size: 17px;
+    border: none;
+    margin-left: 10%;
+    font-family: "Space Grotesk", sans-serif;
+    box-shadow: 0 2px 1px black;
+    float: left;
+    width: 80%;
+    background: white;
+  }
+  
+  /* Style the submit button */
+  .overlay button {
+    float: left;
+    width: 20%;
+    padding: 15px;
+    background: #fff;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .overlay button:hover {
+    background: #000;
+  }
+  .sidenav {
+    height: 100%; 
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    width: 0; 
+    position: fixed;
+    z-index: 1000;
+    top: 0; 
+    left: 0;
+    background-color: #fff; 
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s; 
+    box-shadow: -2px 0 5px #a3a3a3;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 4px 4px 4px 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+    display: block;
+    margin-left: 2px;
+    transition: 0.3s;
+  }
+  .sidenav a:hover{
+    color: #e83e8c;
+    margin-left: 4px;
+  }
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    font-family: "Space Grotesk", sans-serif;
+    right: 10px;
+    font-size: 36px;
+    margin-right: 2px;
+  }
+  .closebtn:hover{
+    color: #e83e8c;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-right .5s;
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+ 
+  @media screen and (max-width:1200px) {
+    .navigationbar-logo{
+      position: absolute;
+      top: -100%;
+      left: 100%;
+    }
+    .hamburger-img-nav{
+      display: block;
+    }
+    .mid-flex{
+      display: none;
+    }
+    .login-icon{
+      display: none;
+    }
+    .heart-icon{
+      display: none;
+    }
+  }
+  
