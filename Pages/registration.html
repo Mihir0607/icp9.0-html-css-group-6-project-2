@@ -52,6 +52,22 @@ li{
     list-style: none;
     display: inline-block;
 }
+.container {
+        background-color:rgb(90, 188, 240);
+        width:300px;
+        height:480px;
+        padding:10px 5px;
+        display: inline-block;
+        border:7px double rgb(27, 18, 131);
+        margin:40px 40px;
+        justify-content:center;
+        box-shadow: 0 0 10px 5px #ff8ba7g;
+      }
+
+      .container:hover{
+        box-shadow: 0 0 50px 20px ;
+        background-color: rgb(248, 42, 162);
+      }
         .text1{
         color:  #131213;
         text-align: center;
@@ -168,9 +184,7 @@ li{
 <body>
 <header>
     <navbar>
-      <div class="container">
-      <div class="logo">
-        <img src="./../imgs/blog-page/" alt="Logo"><span>
+<div class="navbar">
           <h2>BUGGU ICECREAM</h2>
           </span>
   
@@ -197,7 +211,7 @@ li{
     <div class="text1">
     <h1>Registration Form</h1>
     </div>
-    <div class="text">
+    <div class="container">
         <h1 class=>Welcome To Creamy Desert</h1> <hr/>
       <h1 class="text">Register!</h1>
       <p class="text2">Please fill in this form to create an account.</p>
@@ -214,6 +228,7 @@ li{
     <p>By creating an account you agree to our Terms & privacy</p>
     </div>
     <button class="btn">Register Now</button>
+    </div>
     </div>
     
     <footer>
