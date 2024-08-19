@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family:'Times New Roman', Times, serif;
+  color: #272343;
+}
+
+body {
+  background-image: url("https://img.freepik.com/premium-photo/various-flavors-ice-cream-waffle-pink-pastel-background_123827-30550.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fffefe;
+  padding: 10px 15px;
+  flex-wrap: wrap;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.navbar ul li {
+  margin-right: 20px;
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.navbar ul li a {
+  color: #1C2833;
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+}
+
+.nav-logo {
+  height: 90px;
+  border-radius: 50%;
+  width: 90px;
+  object-fit: cover;
+  margin: 10px;
+}
+
+.nav-logo-heading {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  margin: 0 20px;
+}
+
+.navbar a:hover {
+  color: #c82d0f;
+}
+
+.login-image {
+  align-items: center;
+  border-radius: 50%;
+  height: 130px;
+  width: auto;
+  margin: 0 auto;
+}
+
+.login-container {
+  align-items: center;
+  background-color: #f2f6cfe6;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px 6px #f2e6eb;
+  text-align: center;
+  width: 100%;
+  max-width: 450px;
+  border: 5px solid #ffffff;
+  margin: 50px auto;
+}
+
+.input-group {
+  margin-bottom: 5px;
+  text-align: left;
+  padding-right: 15px;
+}
+
+label {
+  font-weight: bold;
+  color: #001858;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 3px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+.login-button {
+  background-color: #236c3b;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.login-button:hover {
+  background-color: #c82d0f;
+}
+
+.cancelbtn:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  background-color: #f44336;
+  color: white;
+  padding: 10px;
+  margin: 8px 8px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  width: 70px;
+  float: left;
+}
+
+span.pass {
+  float: right;
+  padding-top: 16px;
+}
+
+
+/* small screens */
+
+
+/* Mobile layout adjustments */
+
+@media (max-width: 768px) {
+  .form-row {
+      flex-direction: column;
+  }
+  .form-group {
+      margin-right: 0;
+      margin-bottom: 15px;
+  }
+  .main-header,
+  .navbar {
+      flex-direction: column;
+      text-align: center;
+  }
+  .contact-info {
+      text-align: center;
+  }
+  .navbar ul {
+      flex-direction: column;
+  }
+  .navbar ul li {
+      margin-right: 0;
+      margin-bottom: 10px;
+      width: 100%;
+      text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+      margin-bottom: 10px;
+  }
+}
+
+.footer {
+  background: #ffffff;
+  margin-top: 100px;
+  padding: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.footer .row {
+  width: 100%;
+  margin: 1% 0%;
+
+  padding: 0.6% 0%;
+  color: white;
+  font-size: 0.8em;
+}
+
+.footer .row a {
+  text-decoration: none;
+  color: rgb(11, 11, 11);
+  transition: 0.5s;
+}
+
+.footer .row a:hover {
+  color: rgb(36, 6, 75);
+}
+
+.footer .row ul {
+  width: 100%;
+}
+
+.footer .row ul li {
+  display: inline-block;
+  margin: 0px 30px;
+}
+
+.footer .row a i {
+  font-size: 2em;
+  margin: 0% 1%;
+}
+
+@media (max-width:720px) {
+  .footer {
+      text-align: left;
+      padding: 5%;
+  }
+
+  .footer .row ul li {
+      display: block;
+      margin: 10px 0px;
+      text-align: left;
+  }
+
+  .footer .row a i {
+      margin: 0% 3%;
+  }
+}
