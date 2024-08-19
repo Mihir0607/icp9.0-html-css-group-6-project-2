@@ -1,6 +1,6 @@
 .header {
     height: 200px;
-    background-image: url(./../imgs/cont.jpeg);
+    background-image: url(./../imgs/contact/cont.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
   
@@ -133,6 +133,11 @@
 
 
 
+  
+  
+  
+  
+  
   /* header */
   @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Space+Grotesk:wght@300..700&display=swap');
 header{
@@ -140,7 +145,7 @@ header{
     font-optical-sizing: auto;
 }
 .bg-img-navigation{
-    background-image: url("./../png/s1.png");  /* The image used as the background */
+    background-image: url("./../imgs/contact/s1.png");  /* The image used as the background */
     min-height: 80vh;
     position: relative;
     background-size:cover;
@@ -403,3 +408,148 @@ header{
     }
   }
   
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+  /* footer */
+  
+.foot {
+    color: #e83e8c;
+    margin-bottom: 30px;
+    font-size: 30px;
+   
+    padding-top: 30px;
+padding-left: 30px;
+
+}
+
+hr{
+    width: 80px;
+    color: #e83e8c;
+    height: 3px !important;
+}
+
+.footer {
+    font-size: 18px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.b{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    font-weight:100;
+    transition: .5s;
+}
+.bb{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    font-weight:100;
+    transition: .5s;
+}
+
+.contact1 {
+    position: absolute;
+    left: 39%;
+    font-size: 30px;
+    color: #e83e8c;
+    padding-left: 30px;
+    padding-top:30px;
+  
+}
+
+.main {
+    margin-top: 7%;
+    display:flex;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+
+}
+
+.location {
+    position: absolute;
+    right: 1%;
+    font-size: 30px;
+    color: #e83e8c;
+    padding-top: 30px;
+    padding-left: 30px;
+ 
+    
+}
+
+.fa-sol {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+
+.fa-brand {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+.fa-brand:hover{
+    color: #e83e8c;
+    
+}
+.b:hover {
+    color: #e83e8c;
+    text-decoration: underline;
+    margin-left: 5%;
+}
+
+
+
+
+@media screen and (max-width:600px){
+    
+    .contact1{
+        display: block;
+        position: static;
+    }
+    .location{
+
+        display: block;
+        position: static;
+    }
+    .mapl{
+        height: 200px;
+        width: 230px;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:931px){
+    .contact1{
+        display: block;
+        position: static;
+        margin-left: 30%;
+  
+        }
+    .location{
+        display: block;
+        position: static;
+        
+        
+    }
+}
+
+@media screen and (min-width:930px) and (max-width:1200px){
+    .contact1{
+        display: block;
+        position: static;
+        }
+    .location{
+        display: block;
+        position: static;
+        
+    }
+}
+/* #ffb860; */
+/* rgb(32, 31, 31); */
