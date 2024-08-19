@@ -4,22 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ice Cream Shop Login</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/login-page.css">
+
 </head>
 <body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo-heading">
+                <img src="/imgs/Navbar-Logo.jpg" class="nav-logo" />
+                <h1>Buggu</h1>
+            </div>
+
+            <div>
+                <ul>
+                    <li class="nav"><a href="./../index.html">Home</a></li>
+                    <li class="nav"><a href="./../Pages/menu-page.html">Menu</a></li>
+                    <li class="nav"><a href="./../Pages/product-card.html">MyStore</a></li>
+                    <li class="nav"><a href="./../Pages/about-us.html">AboutUs</a></li>
+                    <li class="nav"><a href="./../Pages/contact-page.html">ContactUs</a></li>
+                    <li class="nav"><a href="./../Pages/services.html">Services</a></li>
+                    <li class="nav"><a href="./../Pages/registration.html">Registration</a></li>
+                    <li class="nav"><a href="./../Pages/review-page.html">Review</a></li>
+                    <li class="nav"><a href="./../Pages/blog.html">Blogs</a></li>
+                    <li class="nav"><b>login</b></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <hr>
+    <br>
     <div class="login-container">
-        <h1>Ice Cream Shop</h1>
+        <img src="/imgs/Login/hand-drawn-beach-club-logo-design.png" class="login-image">
         <form>
             <div class="input-group">
                 <label for="username">Username</label>
-                <input type="text" id="username" name="username" >
+                <input type="text" id="username" name="username" placeholder="Enter Username">
             </div>
+            <br>
             <div class="input-group">
                 <label for="password">Password</label>
-                <input type="password" id="password" name="password">
-            </div>
+                <input type="password" id="password" name="password" placeholder="Enter Password">
+            </div><br>
             <button type="submit" class="login-button">Login</button>
+            <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+            <br>
+            <button class="cancelbtn">Cancel</button>
+            <span class="pass">Forgot <a href="/Pages/registration.html">password?</a></span>
         </form>
     </div>
+   
+    <footer>
+        <div class="footer">
+            <div class="row">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-youtube"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </div>
+    
+    
+            <div class="row">
+                 <ul>
+                <li><a href="./Pages/contact.html">Contact us</a></li>
+                <li><a href="./Pages/services.html">Our Services</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Career</a></li>
+               </ul>
+                  </div>
+    
+                 <div class="row">
+                 Copyright © 2024 - All rights reserved
+               </div>
+              </div>
+              </footer>
 </body>
 </html>
