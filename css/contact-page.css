@@ -5,13 +5,6 @@
     background-size: cover;
   
   }
-  .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    font-size: 50px; 
-  }
   
   .head {
     color: #e83e8c;
@@ -70,6 +63,11 @@
     margin-left: 10px;
   }
   
+  .a {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(83, 75, 60);
+  }
   
   span {
     font-size: 20px;
