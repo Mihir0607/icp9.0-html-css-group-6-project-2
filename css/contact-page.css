@@ -1,0 +1,131 @@
+.header {
+    height: 200px;
+    background-image: url(./../imgs/cont.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  
+  .head {
+    color: #e83e8c;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+  iframe {
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* box-shadow: 1px 1px 20px 3px rgb(14, 13, 13);  */
+  }
+  
+  
+  .contact {
+    padding-left: 5px;
+    width: 50%;
+    padding-right: 5px;
+  }
+  
+  .contact-main {
+    margin-top: 60px;
+    display: flex;
+  }
+  
+  .name-customer {
+    margin-bottom: 35px;
+    width: 600px;
+    height: 50px;
+  }
+  
+  .message-customer {
+  
+    width: 600px;
+    height: 150px;
+  }
+  
+  .button {
+    border:1px solid #e83e8c;
+    width: 600px;
+    height: 50px;
+    background-color: #e83e8c;
+    color: white;
+  }
+  
+  .button:hover{
+    border: 1px solid #e83e8c;
+    background-color: white;
+    color: #e83e8c;
+  }
+  
+  .fa-solid {
+    font-size: 25px;
+    margin-left: 10px;
+  }
+  
+  .a {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(83, 75, 60);
+  }
+  
+  span {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  a:hover {
+    color: #e83e8c;
+  }
+  
+  .fa-brands {
+    font-size: 35px;
+    margin-left: 7px;
+  }
+  
+  
+  @media screen and (max-width:821px) {
+    .contact-main {
+        margin-top: 60px;
+        display: block;
+    }
+  
+    .contact {
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 100%;
+    }
+  
+    .name-customer {
+        padding-right: 5px;
+        width: 100%;
+        height: 50px;
+        margin-bottom: 15px;
+    }
+  
+    .message-customer {
+        padding-right: 5px;
+        width: 100%;
+        height: 100px;
+  
+    }
+  
+    .button {
+        padding-right: 5px;
+        width: 100%;
+        height: 50px;
+     
+    }
+  
+    iframe {
+        height: 300px;
+    }
+  
+    .header {
+        height: 120px;
+    }
+  
+    .head {
+        padding-top: 25px;
+    }
+  }
