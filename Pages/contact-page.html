@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./../css/header.css">
+    <link rel="stylesheet" href="./../css/contact-page.css">
+    <link rel="stylesheet" href="./../css/footer.css">
+
+    <script src="./../JS/index.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="nav-container flex" id="nav">
+        <div class="right-flex flex">
+            <img src="./../imgs/contact/menu.png" height="40px" class="hamburger" onclick="openNav()" alt="">
+            <a href="./../index.html"> <img src="./../imgs/ice.gif" class="logo" alt=""></a>
+        </div>
+        <div class="mid-flex">
+            <ul class="menu-list flex" type="none">
+                <li><a href="./../index.html">Home</a></li>
+                <li><a href="./../Pages/about-us.html">About Us</a></li>
+                <li><a href="./../Pages/menu-page.html">Menu</a></li>
+                <li><a href="./../Pages/services.html">Services</a></li>
+            </ul>
+        </div>
+        <div class="left-flex">
+            <img src="./../icons/magnifying-glass.png" class="nav-icons" alt="" onclick="openSearch()">
+            <a href="./../Pages/login-page.html"><img src="./../icons/add-contact.png" class="nav-icons login-icon"
+                    alt=""></a>
+            <img src="./../icons/heart.png" class="nav-icons  heart-icon" alt="">
+            <a href="./../Pages/add-to-cart.html"><img src="./../icons/shopping-bag.png" class="nav-icons" alt=""
+                    onclick="openCarts()"></a>
+        </div>
+    
+    <header>
+
+        <div id="myOverlay" class="overlay">
+            <span class="closebtn" onclick="closeSearch()" title="Close Search">x</span><br><br><br>
+            <h1 class="search-title">Search Your Favorite Ice-Cream </h1>
+            <h2 class="search-title">And Hit Enter...</h2>
+            <div class="overlay-content">
+                <form>
+                    <input type="text" placeholder="Search Your Favorite Ice-Cream Here..." name="search">
+                </form>
+            </div>
+        </div>
+        <!-- <div id="mySidenav1" class="sidenav1">
+            <a href="javascript:void(0)" class="closebtn1" onclick="closeNavs()">&times;</a>
+            <p class="cart1">Shopping Cart</p>
+            <hr>
+        </div> -->
+
+
+
+
+
+        <div class="slide-btn-comtain" onclick="changeBg()">
+            <img src="./../icons/new-moon.png" alt="" class="slide-btn" id="slide-btn"
+                onclick="changeSlideBtn('./../imgs/s5.jpg')">
+            <img src="./../icons/oval.png" alt="" class="slide-btn btn-2" id="slide-btn1"
+                onclick="changeSlideBtn('./../imgs/s6.jpg')">
+        </div>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <ul class="menu-list" type="none">
+                <li><a href="./../index.html">Home</a></li>
+                <li><a href="./../Pages/about-us.html">About Us</a></li>
+                <li><a href="./../Pages/contact-page.html">Contact Us</a></li>
+                <li><a href="./../Pages/services.html">Services</a></li>
+            </ul>
+        </div>
+
+
+    </header>
+
+    <!-- header close -->
+
+    <div class="header">
+        <div class="head">Contact Us </div>
+
+    </div>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d846.9323716932453!2d74.46093933544091!3d20.903802059179633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdeef04875b6c27%3A0xb9b55ff007fa15d1!2sWF36%2BGHV%2C%20Deur%20Budruk%2C%20Maharashtra%20424302!5e0!3m2!1sen!2sin!4v1712828962206!5m2!1sen!2sin"
+        width="100%" height="480" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+    <div class="contact-main">
+
+        <div class="contact">
+            <p style="font-size: 30px; font-weight:600; margin-left:10px">Connect With Us</p>
+            <p style="font-size: 18px; margin-left:10px; margin-right:10px; text-align:justify">If you would like to
+                know more about our policies,
+                you can consult our Terms and Conditions. You will also be able to
+                follow your order (tracking number will be provided in an e-mail after ordering).</p><br>
+
+            <i class="fa-solid fa-phone-volume"></i>&ensp;&ensp;&ensp;&ensp;&ensp;<span>Mobile</span> <br><a
+                href="tel:+91 95189 01457" class="a">&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;+91 95189 01457</a><br><br>
+            <i class="fa-solid fa-envelope"></i>&ensp;&ensp;&ensp;&ensp;&ensp;<span>Email</span> <br><a
+                href="mailto: Mihirtayade20559@gmail.com"
+                class="a">&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Mihirtayade20559@gmail.com</a><br><br>
+            <i class="fa-solid fa-location-dot"></i></i>&ensp;&ensp;&ensp;&ensp;&ensp;<span>Location</span><br>
+            <a href="https://maps.app.goo.gl/TCA1th79iKR1wiRE9" class="a">&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;107,
+                Deur BK, Tal-Dhule, Dist-Dhule -424302
+            </a><br><br><br>
+
+
+        </div>
+
+
+        <div class="ms-4 me-4 ">
+            <form onsubmit="messageAlert()">
+                <p style="font-size: 30px; font-weight:600">Send Us An Message</p>
+                <label for="name"></label>
+                <input type="text" id="name" complete placeholder="Name" required class="name-customer">
+                <br>
+                <label for="EMAIL"></label>
+                <input type="email" id="EMAIL" required placeholder="Email" class="name-customer"><br>
+                <label for="mess"></label>
+                <textarea name="text" id="mess" cols="30" rows="10" complete placeholder="Message" required
+                    class="message-customer"></textarea><br><br>
+                <button type="submit" class="button" value="button">Send</button><br><br>
+            </form>
+        </div>
+
+
+    </div>
+    <br>
+    <center>
+        <div>
+            <p style="font-size: 30px; font-weight:600; margin-left:10px">Follow Us</p>
+
+            <!-- <a href="https://www.instagram.com/bhushan_potdar_19/" onclick="return ready()" class="a" target="_blank"><i
+                    class="fa-brands fa-instagram"></i></a>&emsp;<a
+                href="https://www.linkedin.com/in/bhushan-potdar-62283a2a7/" class="a" onclick="return ready()"
+                target="_blank"><i class="fa-brands fa-linkedin"></i></a>&emsp;<a href="https://wa.me/7744049590"
+                class="a" onclick="return ready()" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            &emsp;<a href="https://github.com/rupajagtap?tab=repositories" class="a" onclick="return ready()" target="_blank"><i
+                    class="fa-brands fa-github"></i></a> -->
+
+
+                    
+        </div>
+    </center>
+    <br><br>
+
+
+
+
+
+
+
+
+    <footer class="main">
+
+        <div class="foot ">Quick Links
+            <hr>
+
+            <div class="footer"><i class="fa-solid fa-house fa-sol"></i>&nbsp;&nbsp;<a href="./../index.html"
+                    class="b">Home</a>
+            </div>
+            <div class="footer "><i class="fa-solid fa-gear fa-sol"></i>&nbsp;&nbsp;<a href="./../Pages/services.html"
+                    class="b">Services
+                </a></div>
+            <div class="footer "><i class="fa-solid fa-list fa-sol"></i>&nbsp;&nbsp;&nbsp;<a
+                    href="./../Pages/menu-page.html" class="b">Menu</a></div>
+            <div class="footer "><i class="fa-solid fa-cart-shopping fa-sol"></i>&nbsp;&nbsp;<a
+                    href="./../Pages/product-card.html" class="b">Store</a></div>
+            <div class="footer "><i class="fa-solid fa-file-pen fa-sol"></i>&nbsp;&nbsp;<a
+                    href="./../Pages/registration.html" class="b">Registration</a></div>
+            <div class="footer "><i class="fa-solid fa-thumbs-up fa-sol"></i>&nbsp;&nbsp;<a
+                    href="./../Pages/blog.html" class="b">Blog</a></div>
+            <div class="footer "><i class="fa-solid fa-user fa-sol"></i>&nbsp;&nbsp;<a href="./../Pages/about-us.html"
+                    class="b">About Us</a></div>
+
+
+        </div>
+
+
+        <div class="contact1">Contact Us
+            <hr>
+            <div class="footer"><i class="fa-solid fa-phone-volume fa-sol"></i>&nbsp;&nbsp;<a href="tel:7744049590"
+                    class="b">+91 7744049590</a></div>
+            <div class="footer "><i class="fa-solid fa-envelope fa-sol"></i>&nbsp;&nbsp;<a
+                    href="mailto: bhushanpotdar3@gmail.com" class="b"> bhushanpotdar3@gmail.com</a></div>
+
+            <div class="footer mt-4">&nbsp;&nbsp;<a href="https://www.instagram.com/bhushan_potdar_19"
+                    onclick="return ready()" class="b" target="_blank"><i
+                        class="fa-brands fa-instagram fa-brand"></i></a>&emsp;<a
+                    href="https://www.linkedin.com/in/bhushan-potdar-62283a2a7/" onclick="return ready()" class="a"
+                    target="_blank"><i class="fa-brands fa-linkedin fa-brand"></i></a>&emsp;<a
+                    href="https://wa.me/7744049590" onclick="return ready()" class="b" target="_blank"><i
+                        class="fa-brands fa-whatsapp fa-brand"></i></a>
+                &emsp;<a href="https://github.com/bhushanpotdar19" onclick="return ready()" class="b" target="_blank"><i
+                        class="fa-brands fa-github fa-brand"></i></a></div>
+            <br>
+
+        </div>
+        <div class="location">Location
+            <hr>
+            <div class="footer"><i class="fa-solid fa-location-dot fa-sol"></i></i>&nbsp;&nbsp;<a
+                    href="https://maps.app.goo.gl/TCA1th79iKR1wiRE9" class="b">107,
+                    Deur BK, Tal-Dhule, <br>Dist-Dhule -424302
+                </a></div>
+            <div class="footer "><iframe class="mapl"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d777.7157158970201!2d74.4609393!3d20.9038021!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdeef04875b6c27%3A0xb9b55ff007fa15d1!2sWF36%2BGHV%2C%20Deur%20Budruk%2C%20Maharashtra%20424302!5e1!3m2!1sen!2sin!4v1712915607325!5m2!1sen!2sin"
+                    width="280" height="170" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </div>
+
+    </footer>
+    <center style="background-color: rgb(32, 31, 31); margin-bottom:0%; padding:0%; color:white ">Copyright © 2024 - All rights reserved</center>
+
+
+    <script src="https://kit.fontawesome.com/0dcf08ad5b.js" crossorigin="anonymous"></script>
+
+</html>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/0dcf08ad5b.js" crossorigin="anonymous"></script>
+
+
+<script>
+    function ready() {
+        let confValue = confirm("Are You Sure? You want to move to another page!")
+        if (confValue == true) {
+            return true
+
+        }
+        else {
+            return false
+        }
+    }
+    function messageAlert() {
+        alert("You are successfully send the message!")
+    }
+
+</script>
+
+
+</body>
+
+</html>
