@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color:#e3f6f5;
+    background-color:#f0f3f3;
   }
 /** navbar**/
 
@@ -120,9 +120,8 @@ margin: none;
             color:rgb(2, 2, 94);
         }
         .menu-btn{
-            background-color:#f3dc5c;
+            background-color:#f3d83c;
             color: black;
-            border-radius:black solid 10px;
             border-radius:10px;
             padding:12px 22px;
             margin:0px 70px;
@@ -134,6 +133,7 @@ margin: none;
         .menu-btn:hover{
             border:1px solid black 5px;
             background-color: #ffd803;
+            border-radius:black solid 10px;
          
             transition: 1.5s;
         }
@@ -175,7 +175,9 @@ margin: none;
 
    /** box-8 circle box**/
 
-
+   .card-container2{
+    background-color:#f3f391;
+   }
 
 
 
