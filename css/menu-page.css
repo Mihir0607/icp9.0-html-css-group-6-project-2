@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color:#e3f6f5;
+    background-color:#f0f3f3;
   }
 /** navbar**/
 
@@ -97,6 +97,7 @@ margin: none;
             border-radius: 10px;
             box-shadow: -5px 5px 10px 2px #333333;
             border: 0.5px solid #737373;
+            
         }
         
         .menu-icon{
@@ -119,9 +120,8 @@ margin: none;
             color:rgb(2, 2, 94);
         }
         .menu-btn{
-            background-color:#f3dc5c;
+            background-color:#f3d83c;
             color: black;
-            border-radius:black solid 10px;
             border-radius:10px;
             padding:12px 22px;
             margin:0px 70px;
@@ -133,13 +133,14 @@ margin: none;
         .menu-btn:hover{
             border:1px solid black 5px;
             background-color: #ffd803;
+            border-radius:black solid 10px;
          
             transition: 1.5s;
         }
         .menu-card:hover{
             box-shadow: -4px 4px 10px 2px  #ffd803;
             transition: 1.5s;
-            background-color: white;
+            background-color:#e3f6f5;
         }
         .card-container{
             display:flex;
@@ -174,7 +175,9 @@ margin: none;
 
    /** box-8 circle box**/
 
-
+   .card-container2{
+    background-color:#f3f391;
+   }
 
 
 
