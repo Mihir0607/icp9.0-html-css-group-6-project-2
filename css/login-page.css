@@ -1,116 +1,189 @@
-
-
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #272343;
+}
 
 body {
-    background-color: #f3d2c1;
-    background-size: cover;
-    height:100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
-    box-sizing: border-box;
-    
+  background-image: url("https://img.freepik.com/free-photo/top-view-ice-cream-cones-with-copy-space_23-2148268219.jpg?t=st=1724054717~exp=1724058317~hmac=adb38e3325adc2aef9d1f2fb80d283cc4310b104173ab690998fc428218f4d09&w=996");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
 }
-.login-image{
-    align-items: center;
-    border-radius: 50%;
-    height: 130px;
-    width: auto;
-    margin: 0%;
 
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fef6e4;
+  padding: 10px 15px;
+  flex-wrap: wrap;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.navbar ul li {
+  margin-right: 20px;
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.navbar ul li a {
+  color: #1C2833;
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+}
+
+.nav-logo {
+  height: 90px;
+  border-radius: 50%;
+  width: 90px;
+  object-fit: cover;
+  margin: 10px;
+}
+
+.nav-logo-heading {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  margin: 0 20px;
+}
+
+.navbar a:hover {
+  color: #c82d0f;
+}
+
+.login-image {
+  align-items: center;
+  border-radius: 50%;
+  height: 130px;
+  width: auto;
+  margin: 0 auto;
 }
 
 .login-container {
-    align-items: center;
-    background-color: #fef6e4;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 5px 6px #f582ae;
-    text-align: center;
-    width: 100%;
-    max-width: 450px;
-    border: 5px #f582ae;
-    margin-top: 200px;
-    
+  align-items: center;
+  background-color: #f3e2f0b7;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px 6px #f582ae;
+  text-align: center;
+  width: 100%;
+  max-width: 450px;
+  border: 5px solid #f582ae;
+  margin: 50px auto;
 }
 
 .input-group {
-    margin-bottom: 5px;
-    text-align: left;
-    padding-right: 15px;
+  margin-bottom: 5px;
+  text-align: left;
+  padding-right: 15px;
 }
 
 label {
-    font-weight: bold;
-    color:#001858;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 3px;
+  font-weight: bold;
+  color: #001858;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 3px;
 }
 
 input[type="text"],
 input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-top: 5px;
-    font-size: 16px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  margin-top: 5px;
+  font-size: 16px;
 }
 
 .login-button {
-    background-color: #236c3b;
-    color: #fff;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    width: 100%;
+  background-color: #236c3b;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
 }
 
 .login-button:hover {
-    background-color: #c82d0f;
+  background-color: #c82d0f;
+}
+
+.cancelbtn:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  background-color: #f44336;
+  color: white;
+  padding: 10px;
+  margin: 8px 8px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  width: 70px;
+  float: left;
+}
+
+span.pass {
+  float: right;
+  padding-top: 16px;
 }
 
 
+/* small screens */
 
 
-  
-  .cancelbtn:hover {
-    opacity: 0.8;
+/* Mobile layout adjustments */
+
+@media (max-width: 768px) {
+  .form-row {
+      flex-direction: column;
   }
-  
-  .cancelbtn {
-    width: auto;
-    background-color: #f44336;
-    color: white;
-    padding: 10px;
-    margin: 8px 8px;
-    border: none;
-    cursor: pointer;
-    width: 70px;
-    float: left;
-   
-    
+  .form-group {
+      margin-right: 0;
+      margin-bottom: 15px;
   }
-
-
-  span.pass {
-    float: right;
-    padding-top: 16px;
+  .main-header,
+  .navbar {
+      flex-direction: column;
+      text-align: center;
   }
-  
-    
-  
-  /* small screens */
-  @media screen and (max-width: 300px) {
-    span.pass {
-       display: block;
-       float: none;
-    }
-    .cancelbtn {
-       width: 100%;
-    }
+  .contact-info {
+      text-align: center;
+  }
+  .navbar ul {
+      flex-direction: column;
+  }
+  .navbar ul li {
+      margin-right: 0;
+      margin-bottom: 10px;
+      width: 100%;
+      text-align: center;
+  }
+}
 
-  
+@media (max-width: 480px) {
+  .logo {
+      margin-bottom: 10px;
+  }
+}
