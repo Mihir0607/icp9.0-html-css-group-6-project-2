@@ -1,31 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<link rel="preconnect" href="https://fonts.googleapis.com">
+  <meta charset="utf-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-    <title>registration</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
+    
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="icon" type="image/x-icon" href="/imgs/blog-page/fev.png">
+  <title>Registration</title>
+  <style>
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#272343;
+}
 
-        .text{
-            text-align: center;
-            color:rgb(166, 22, 113);
-            font-family:initial;
-            font-size: 60px;
-            background-color:yellow;
-        }
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    background-color: #ffd803;
+    box-shadow: 0 10 20px rgb(0,0,0,0.3);
+}
+
+.nav-logo{
+    height: 90px;
+}
+.container.logo{
+  display: flex;
+  font-size: medium;
+}
+.nav-logo-heading{
+    display: flex;
+    align-items: center; 
+}
+
+.nav{
+    margin: 0 20px;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
         .text1{
         color:  #131213;
         text-align: center;
-        font-size:30px;
+        font-size:60px;
         font-family: 'Courier New', Courier, monospace;
-        background-color:rgb(21, 243, 235);
+        background-color:yellow;
         }
         .btn{
         display: inline;
-        background-color: rgb(247, 12, 118);
+        background-color: white;
         margin: 5px;
         color: #e83e8c;
         border-radius: 10px;
@@ -33,18 +63,119 @@
         height: 100;
         width: 50;
         }
-        .btn:hover{
-         box-shadow: 0 0 50px 20px blue;
-         border-radius-color:aquamarine;
-         transition: 0.5s;
-        
+        .btn :hover{
+         box-shadow: 0 0 50px 20px ;
+         background-color: blue;
         }
+          .text{
+              text-align: center;
+              color:rgb(166, 22, 113);
+              font-family:initial
+              font-size: 40px;
+              background-color:#ffffcc;
+          }
+          .text1{
+          color:  #131213;
+          text-align: center;
+          font-size:30px;
+          font-family: 'Courier New', Courier, monospace;
+          background-color:#ffffcc;
+          }
+          .btn{
+          display: inline;
+          background-color: rgb(237, 233, 233);
+          margin: 5px;
+          color: #e83e8c;
+          border-radius: 10px;
+          border: 5px solid rgb(30, 28, 26);
+          height: 100;
+          width: 50;
+          }
+          .btn:hover{
+           box-shadow: 0 0 50px 20px;
+           background-color: blue;
+          }
+          .footer {
+  background: #ffd803;
+  margin-top: 100px;
+  padding: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
 
-        </style>
+.footer .row {
+  width: 100%;
+  margin: 1% 0%;
+  padding: 0.6% 0%;
+  color: white;
+  font-size: 0.8em;
+}
 
-</head>
+.footer .row a {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+}
 
+.footer .row a:hover {
+  color: grey;
+}
+
+.footer .row ul {
+  width: 100%;
+}
+
+.footer .row ul li {
+  display: inline-block;
+  margin: 0px 30px;
+}
+
+.footer .row a i {
+  font-size: 2em;
+  margin: 0% 1%;
+}
+
+@media (max-width:720px) {
+  .footer {
+      text-align: left;
+      padding: 5%;
+  }
+
+  .footer .row ul li {
+      display: block;
+      margin: 10px 0px;
+      text-align: left;
+  }
+
+  .footer .row a i {
+      margin: 0% 3%;
+  }
+}
+</style>
 <body>
+<header>
+  <div class="navbar">
+   <div class="container">
+    <div class="logo">
+      <img src="./../imgs/blog-page/ice.gif" alt="Logo"><span></span>
+        <h2>BUGGU ICECREAM</h2>
+        </div>
+      </div>
+        <div>
+            <ul>
+                <li class="nav"><a href="./../index.html">Home</a></li>
+                <li class="nav"><a href="./../Pages/product-card.html">product-card</a></li>
+                <li class="nav"><a href="./../Pages/menu-page.html">Menu</a></li>
+                <li class="nav"><a href="./../Pages/about-us.html">About us</a></li>
+                <li class="nav"><b>Registration</b></li>
+                <li class="nav"><a href="./../Pages/review-page.html">Review</a></li>
+                <li class="nav"><a href="./../Pages/login-page.html">login</a></li>
+                <li class="nav"><a href="./../Pages/contact-page.html">Contact</a></li>
+                <li class="nav"><a href="./../Pages/services.html">Services</a></li>
+            </ul>
+        </div>
+    </div>
+</header><hr>
     <div class="text1">
     <h1>Registration Form</h1>
     </div>
@@ -65,6 +196,32 @@
     <p>By creating an account you agree to our Terms & privacy</p>
     <button class="btn">Register Now</button>
     </div>
-    
-</body>
-</html>
+    <footer>
+      <div class="footer">
+          <div class="row">
+              <a href="#"><i class="fab fa-facebook-f"></i></i></a>
+              <a href="#"> <i class="bi bi-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+          </div>
+          <div id='facebook-icon'></div>
+  
+          <div class="row">
+              <ul>
+                  <li><a href="./Pages/contact.html">Contact us</a></li>
+                  <li><a href="./Pages/services.html">Our Services</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Terms & Conditions</a></li>
+                  <li><a href="#">FAQ</a></li>
+              </ul>
+          </div>
+  
+          <div class="row">
+              Copyright © 2024 - All rights reserved
+          </div>
+      </div>
+  </footer>
+  
+  </body>
+  
+  </html>
