@@ -3,13 +3,29 @@
 <head>
   <meta charset="utf-8">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
   <link rel="icon" type="image/x-icon" href="/imgs/blog-page/fev.png">
+  <link rel="stylesheet" href="./../css/menu-page.css">
+    
+  <link rel="stylesheet" href="./../css/navbar.css">
+
+  <link rel="icon" type="image/x-icon" href="/imgs/blog-page/fev.png">
+   
+  <link rel="stylesheet" href="./../css/header.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" type="text/css" href="./../css/index.css">
+  <link rel="stylesheet" type="text/css" href="./../css/footer.css">
   <title>Registration</title>
   <style>
+  .body {
+  margin:0;
+  padding:0;
+  font-family: Arial, sans-serif;
+  background-color: #cadcfc;
+  }
 *{
     margin: 0;
     padding: 0;
@@ -27,22 +43,30 @@
 }
 
 .nav-logo{
-    height: 90px;
+    height: 15px;
+    width:10px;
 }
-.container.logo{
+.container1{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  padding:10px 20px;
+  font font-size: 50px;
+}
+.container1.logo{
   display: flex;
   font-size: medium;
+  height:10px;
+  width:10px;
+}
+.logo image{
+  height: 70px;
+  margin-left: 50px;
 }
 .nav-logo-heading{
     display: flex;
     align-items: center; 
-}
-.container{
-  display:flex;
-  justify-content:space-between;
-  align-item:center;
-  padding:10px 20px;
-  font size:50px;
+
 }
 .nav{
     margin: 0 20px;
@@ -52,16 +76,22 @@ li{
     list-style: none;
     display: inline-block;
 }
+.text-center{
+  text-align: center;
+}
 .container {
-        background-color:rgb(240, 172, 90);
-        width:300px;
-        height:480px;
-        padding:10px 5px;
-        display: inline-block;
-        border:7px double rgb(27, 18, 131);
-        margin:40px 40px;
-        justify-content:center;
-        box-shadow: 0 0 10px 5px #ff8ba7g;
+      background-color:rgb(240, 172, 90);
+      text-align: center;
+      width:300px;
+      height:480px;
+      padding:10px 5px;
+      display: inline-block;
+      border:7px double rgb(27, 18, 131);
+      justify-content:space-around;
+      box-shadow: 0 0 10px 5px #ff8ba7g;
+      justify-content:center;
+      align-item:left center;
+      margin: 50px 100px 50px 60px;
       }
 
       .container:hover{
@@ -100,9 +130,9 @@ li{
           .text1{
           color:  rgb(166, 22, 113);
           text-align: center;
-          font-size:30px;
-          font-family: 'Courier New', Courier, monospace;
-          background-color:greenyellow;
+          font-size:20px;
+          font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          background-color:rgb(254, 246, 15);
           }
           .text2{
             color:rgb(166, 22, 113) ;
@@ -184,33 +214,30 @@ li{
 <body>
 <header>
     <navbar>
-<div class="navbar">
-          <h2>BUGGU ICECREAM</h2>
-          </span>
-  
-        </div>
+      <div class="container1">
+<div class="logo">
+          
+  <img src="./../imgs/ice.gif" aly="logo"><span><h1>BUGGU ICECREM</h1></span>
       </div>
-        <div>
             <ul>
-                <li class="nav"><a href="./../index.html">Home</a></li>
-                <li class="nav"><a href="./../Pages/product-card.html">product-card</a></li>
-                <li class="nav"><a href="./../Pages/menu-page.html">Menu</a></li>
-                <li class="nav"><a href="./../Pages/about-us.html">About us</a></li>
-                <li class="nav"><b>Registration</b></li>
-                <li class="nav"><a href="./../Pages/review-page.html">Review</a></li>
-                <li class="nav"><a href="./../Pages/login-page.html">login</a></li>
-                <li class="nav"><a href="./../Pages/contact-page.html">Contact</a></li>
-                <li class="nav"><a href="./../Pages/services.html">Services</a></li>
+              <li><a href="./../index.html">HOME</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+                <li><a href="./../Pages/product-card.html">Product-Card</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+                <li><a href="./../Pages/menu-page.html">MENU</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+                <li><a href="./../Pages/about-us.html">About-US</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+                <li><a href="./../Pages/registration.html"><b>Registeration</b></a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+                <li><a href="./../Pages/review-page.html">REVIEW</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+                <li><a href="./../Pages/login-page.html">LOGIN</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+                <li><a href="./../Pages/contact-page.html">CONTACT</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+                <li><a href="./../Pages/services.html">SERVICES</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+          
             </ul>
         </div>
     </div>
-</header><hr>
-
-
-
-    <div class="text1">
-    <h1>Registration Form</h1>
-    </div>
+</header>
+</Navbar><hr>
+<br>
+    <h2 form class="text-center text1">Registration form</h2>
+    <div class="text-center">
     <div class="container">
         <h1 class=>Welcome To Creamy Desert</h1> <hr/>
       <h1 class="text">Register!</h1>
@@ -230,32 +257,29 @@ li{
     <button class="btn">Register Now</button>
     </div>
     </div>
-    
-    <footer>
-      <div class="footer">
-          <div class="row">
-              <a href="#"><i class="fab fa-facebook-f"></i></i></a>
-              <a href="#"> <i class="bi bi-instagram"></i></a>
-              <a href="#"><i class="fa-brands fa-youtube"></i></a>
-              <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
-          </div>
-          <div id='facebook-icon'></div>
-  
-          <div class="row">
-              <ul>
-                  <li><a href="./Pages/contact.html">Contact us</a></li>
-                  <li><a href="./Pages/services.html">Our Services</a></li>
-                  <li><a href="#">Privacy Policy</a></li>
-                  <li><a href="#">Terms & Conditions</a></li>
-                  <li><a href="#">FAQ</a></li>
-              </ul>
-          </div>
-  
-          <div class="row">
-              Copyright © 2024 - All rights reserved
-          </div>
-      </div>
-  </footer>
+  </form>
+  <footer>
+    <div class="footer">
+        <div class="row">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+        </div>
+<div class="row">
+<ul>
+<li><a href="./Pages/contact.html">Contact us</a></li>
+<li><a href="./Pages/services.html">Our Services</a></li>
+<li><a href="#">Privacy Policy</a></li>
+<li><a href="#">Terms & Conditions</a></li>
+<li><a href="#">Career</a></li>
+</ul>
+</div>
+<div class="row">
+Copyright © 2024 - All rights reserved
+</div>
+</div>
+</footer>
   
   </body>
   
