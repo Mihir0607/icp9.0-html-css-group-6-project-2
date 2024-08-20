@@ -83,43 +83,45 @@ nav ul li a:hover {
     padding: 50px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-  }
-  
-  .footer .row {
+}
+
+.footer .row {
     width: 100%;
     margin: 1% 0%;
     padding: 0.6% 0%;
     color: white;
     font-size: 0.8em;
-  }
-  
-  .footer .row a {
+}
+
+.footer .row a {
     text-decoration: none;
     color: white;
     transition: 0.5s;
-  }
-  
-  .footer .row a:hover {
+}
+
+.footer .row a:hover {
     color: #030068;
-  }
-  
-  .footer .row ul {
+}
+
+.footer .row ul {
     width: 100%;
-  }
-  
-  .footer .row ul li {
+}
+
+.footer .row ul li {
     display: inline-block;
     margin: 0px 30px;
-  }
-  
-  .footer .row a i {
+}
+
+.footer .row a i {
     font-size: 2em;
     margin: 0% 1%;
     color: #fff;
-  }
-  .footer .row a i:hover{
+}
+
+.footer .row a i:hover {
     color: #030068;
-  }
+}
+
 /* end footer */
 
 .btn {
@@ -311,120 +313,58 @@ p {
 
 }
 
-/* blog-anjeer */
-.blog-anjeer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.anjeer-para {
-    margin: 5rem 16rem;
-    font-size: 20px;
-    text-align: left;
-    letter-spacing: 1px;
-    line-height: 30px;
-    color: #737373;
-}
-
-.anjeer-parag {
-    margin: 1rem 16rem;
-    font-size: 20px;
-    text-align: left;
-    color: #737373;
-    letter-spacing: 1px;
-    line-height: 30px;
-    margin-bottom: 5rem;
-}
-
-.anjeer-parah {
-    margin: 2rem 16rem;
-    font-size: 20px;
-    text-align: left;
-}
-
-.anjeer-paragr {
-    margin: 1rem 16rem;
-    font-size: 20px;
-    text-align: left;
-    color: #737373;
-    letter-spacing: 1px;
-    line-height: 30px;
-    margin-bottom: 5rem;
-}
-
-.anjeer-heading {
-    text-align: center;
-    margin: 5rem 0;
-    font-size: 40px;
-    text-transform: uppercase;
-    color: #000000;
-    letter-spacing: 1.5px;
-    line-height: 50px;
-    /* text-shadow: 0px 0px 3px #7a7a7a; */
-}
-
-.blog-img {
-    width: 50rem;
-    border-radius: 30px;
-    box-shadow: 1px 1px 5px #000000;
-}
 
 /* responsive */
 
 /* Ipad */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .main-div {
-        width: 50%;
+        width: 292px;
         margin: 5px;
-        height: 216px;
+        height: 164px;
+    }
+
+    .section-heading {
+        margin-left: -375px;
+        font-size: 15px;
+        margin-top: 25px;
+        margin-bottom: 17px;
+    }
+
+    .img-fluid {
+        width: 85px;
+        height: 85px;
+        margin: -12px -97px -11px -100px;
     }
     
 
-        /* .container {
-            height: 45px;
-        } */
-/* 
+    .container {
+        height: 45px;
+    }
+
     .logo img {
         width: 35px;
         height: 24px;
         margin-top: 9px;
         margin-left: 0;
     }
+
+
+    h2 {
+        font-size: 8px;
+        margin: -4px -12px;
+    }
+
+    nav ul li a {
+        font-size: 7px;
+    }
+
+    h5 {
+        font-size: 5px;
+        margin: 15px 0 1px -180px;
+    }
 }
-
-h2 {
-    font-size: 8px;
-    margin: -4px -12px;
-}
-
-nav ul li a {
-    font-size: 7px; */
-}
-/* 
-.section-heading {
-    margin-left: -325px;
-    font-size: 25px;
-    margin-top: 25px;
-    margin-bottom: 17px;
-} */
-
-/* .img-fluid {
-    width: 100px;
-    height: 100px;
-}
-
-.main-img {
-    margin: 0;
-}
-
-h5 {
-    font-size: 7px;
-}
-
-.container-img {}
-
-} */
 
 
 
