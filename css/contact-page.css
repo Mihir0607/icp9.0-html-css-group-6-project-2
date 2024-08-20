@@ -362,12 +362,7 @@ nav ul li a:hover {
   
   }
   
-  .head {
-    color: #e83e8c;
-    font-size: 50px;
-    text-align: center;
-    padding-top: 50px;
-  }
+  
   
   iframe {
     margin-top: 10px;
@@ -376,12 +371,18 @@ nav ul li a:hover {
 
     /* box-shadow: 1px 1px 20px 3px rgb(14, 13, 13);  */
    /* }  */ 
-
+   .head {
+    color: #e83e8c;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
+  }
  
   .logo {
 height: 170px;
 width: 170px;
 margin-top: 15px;
+margin-right: 10px;
   }
   
   
@@ -396,7 +397,7 @@ margin-top: 15px;
   .contact-main {
     margin-top: 60px;
     display: flex;
-    background-color:#b3ffff;
+    background-color:#e6ffff;
   }
   
   .name-customer {
