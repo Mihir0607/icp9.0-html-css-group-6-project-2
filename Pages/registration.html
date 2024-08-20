@@ -1,27 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="utf-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-    <title>registration</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
+    
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="icon" type="image/x-icon" href="/imgs/blog-page/fev.png">
+  <link rel="stylesheet" href="./../css/menu-page.css">
+    
+  <link rel="stylesheet" href="./../css/navbar.css">
 
-        .text{
-            text-align: center;
-            color:rgb(166, 22, 113);
-            font-family:initial;
-            font-size: 60px;
-            background-color:yellow;
-        }
+  <link rel="icon" type="image/x-icon" href="/imgs/blog-page/fev.png">
+   
+  <link rel="stylesheet" href="./../css/header.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" type="text/css" href="./../css/index.css">
+  <link rel="stylesheet" type="text/css" href="./../css/footer.css">
+  <title>Registration</title>
+  <style>
+  .body {
+  margin:0;
+  padding:0;
+  font-family: Arial, sans-serif;
+  background-color:#ffffcc;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#272343;
+    background-color: #ffffcc;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    background-color:#ffffcc;
+    box-shadow: 0 10 20px rgb(0,0,0,0.3);
+}
+
+.nav-logo{
+    height: 15px;
+    width:10px;
+}
+.container1{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  padding:10px 20px;
+  font font-size: 50px;
+}
+.container1.logo{
+  display: flex;
+  font-size: medium;
+  height:10px;
+  width:10px;
+}
+.logo image{
+  height: 70px;
+  margin-left: 50px;
+}
+.nav-logo-heading{
+    display: flex;
+    align-items: center; 
+
+}
+.nav{
+    margin: 0 20px;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+.text-center{
+  text-align: center;
+}
+.container {
+      background-color:white;
+      text-align: center;
+      width:500px;
+      height:400px;
+      padding:10px 5px;
+      display: inline-block;
+      border:7px double rgb(27, 18, 131);
+      justify-content:space-around;
+      box-shadow: 0 0 10px 5px #ff8ba7g;
+      justify-content:center;
+      align-item:left center;
+      margin: 50px 100px 50px 60px;
+      }
         .text1{
         color:  #131213;
         text-align: center;
         font-size:60px;
         font-family: 'Courier New', Courier, monospace;
-        background-color:yellow;
+        background-color:rgb(247, 247, 245);
+        border-bottom: #131213;
         }
         .btn{
         display: inline;
@@ -32,36 +111,172 @@
         border: 5px solid rgb(30, 28, 26);
         height: 100;
         width: 50;
+        }
         .btn :hover{
-         box-shadow: 0 0 50px 20px  ;
+         box-shadow: 0 0 50px 20px ;
+         background-color: blue;
         }
-        }
+          .text{
+              text-align: center;
+              color:rgb(166, 22, 113);
+              font-family:initial
+              font-size: 40px;
+              background-color:#ffffcc;
+          }
+          .text1{
+          color:  rgb(166, 22, 113);
+          text-align: center;
+          font-size:50px;
+          font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          background-color:rgb(238, 246, 6);
+          }
+          .text2{
+            color:rgb(166, 22, 113) ;
+          }
+          .text3{
+            color: rgb(166, 22, 113);
+          }
+          .btn{
+          display: inline;
+          background-color: rgb(237, 233, 233);
+          margin: 5px;
+          color: #e83e8c;
+          border-radius: 10px;
+          border: 5px solid rgb(30, 28, 26);
+          height: 100;
+          width: 50;
+          }
+          .btn:hover{
+           box-shadow: 0 0 50px 20px;
+           background-color: blue;
+          }
+          .footer {
+  background: #ffffcc;
+  margin-top: 100px;
+  padding: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
 
-        </style>
+.footer .row {
+  width: 100%;
+  margin: 1% 0%;
+  padding: 0.6% 0%;
+  color: rgb(12, 1, 1);
+  font-size: 0.8em;
+}
 
-</head>
+.footer .row a {
+  text-decoration: none;
+  color: rgb(18, 0, 0);
+  transition: 0.5s;
+}
 
+.footer .row a:hover {
+  color: rgb(7, 0, 0);
+}
+
+.footer .row ul {
+  width: 100%;
+}
+
+.footer .row ul li {
+  display: inline-block;
+  margin: 0px 30px;
+}
+
+.footer .row a i {
+  font-size: 2em;
+  margin: 0% 1%;
+}
+
+@media (max-width:720px) {
+  .footer {
+      text-align: left;
+      padding: 5%;
+  }
+
+  .footer .row ul li {
+      display: block;
+      margin: 10px 0px;
+      text-align: left;
+  }
+
+  .footer .row a i {
+      margin: 0% 3%;
+  }
+}
+</style>
 <body>
-    <div class="text1">
-    <h1>Registration Form</h1>
+<header>
+    <navbar>
+      <div class="container1">
+<div class="logo">
+          
+  <img src="./../imgs/ice.gif" aly="logo"><span><h1>BUGGU ICECREM</h1></span>
+      </div>
+            <ul>
+              <li><a href="./../index.html">HOME</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+                <li><a href="./../Pages/product-card.html">Product-Card</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+                <li><a href="./../Pages/menu-page.html">MENU</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+                <li><a href="./../Pages/about-us.html">About-US</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+                <li><a href="./../Pages/registration.html"><b>Registeration</b></a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+                <li><a href="./../Pages/login-page.html">LOGIN</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+                <li><a href="./../Pages/contact-page.html">CONTACT</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+                <li><a href="./../Pages/services.html">SERVICES</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+          
+            </ul>
+        </div>
     </div>
-    <div class="text">
-        <h1 class=>Welcome To Creamy Desert</h1> <hr/>
-      <h1 class="text">Register!</h1>
-      <p class="text2">Please fill in this form to create an account.</p>
-      <hr>
-        <label for=" input Email">Enter full name:</label>
+</header>
+</Navbar><hr>
+<br>
+<h2 form class="text-center text1">Registration form</h2>
+    <div class="text-center">
+    <div class="container">
+        <h1 class=>Welcome To Creamy Desert</h1> <hr/><hr/>
+        <br>
+      <h1 class="text">Register!</h1><br>
+      <p class="text2">Please fill in this form to create an account.</p><br>
+      <hr><br>
+        <label for=" input Email">Enter full name:</label><br>
         <input type="text" placeholder="Enter full name" name="name" id="name" ><br><br>
 
-        <label for=" input Email">Enter Email:</label>
+        <label for=" input Email">Enter Email:</label><br>
         <input type="text" placeholder="Enter Email" name="email" id="email" ><br><br>
     
-        <label for=" input Email">Enter Password:</label>
-        <input type="text" placeholder="Enter Password" name="Password" id="Password" >
-
+        <label for=" input Email">Enter Password:</label><br>
+        <input type="text" placeholder="Enter Password" name="Password" id="Password" ><br><br>
+<div class="text3">
     <p>By creating an account you agree to our Terms & privacy</p>
+    </div><br>
     <button class="btn">Register Now</button>
     </div>
-    
-</body>
-</html>
+    </div>
+  </form>
+  <footer>
+    <div class="footer">
+        <div class="row">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+        </div>
+<div class="row">
+<ul>
+<li><a href="./Pages/contact.html">Contact us</a></li>
+<li><a href="./Pages/services.html">Our Services</a></li>
+<li><a href="#">Privacy Policy</a></li>
+<li><a href="#">Terms & Conditions</a></li>
+<li><a href="#">Career</a></li>
+</ul>
+</div>
+<div class="row">
+Copyright © 2024 - All rights reserved
+</div>
+</div>
+</footer>
+  
+  </body>
+  
+  </html>
