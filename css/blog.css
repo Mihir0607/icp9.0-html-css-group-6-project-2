@@ -45,6 +45,7 @@ nav span:hover {
 .logo img {
     height: 70px;
     margin-left: 50px;
+    border-radius: 5px;
 }
 
 nav ul {
@@ -99,7 +100,7 @@ nav ul li a:hover {
   }
   
   .footer .row a:hover {
-    color: grey;
+    color: #030068;
   }
   
   .footer .row ul {
@@ -114,9 +115,10 @@ nav ul li a:hover {
   .footer .row a i {
     font-size: 2em;
     margin: 0% 1%;
+    color: #fff;
   }
   .footer .row a i:hover{
-    color: #ffffff;
+    color: #030068;
   }
 /* end footer */
 
