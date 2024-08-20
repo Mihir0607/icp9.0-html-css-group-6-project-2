@@ -7,17 +7,17 @@ body {
 
 nav {
   background-color: #ffd803;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3)
 }
 nav span{
-  color: #fff;
+  color: black;
   font-size: 15px;
   margin-top: 20px;
   padding-left: 20px;
   font-weight: bold;
 }
 nav span:hover{
-  color: #cadcfc;
+  color:  #cadcfc,
 }
 
 .back {
@@ -351,7 +351,7 @@ nav ul li a:hover {
 
 
 .footer {
-  background: #ffd803;
+  background: #ffffcc;
   margin-top: 100px;
   padding: 50px;
   font-family: Arial, Helvetica, sans-serif;
@@ -362,13 +362,13 @@ nav ul li a:hover {
   width: 100%;
   margin: 1% 0%;
   padding: 0.6% 0%;
-  color: white;
+  color: black;
   font-size: 0.8em;
 }
 
 .footer .row a {
   text-decoration: none;
-  color: white;
+  color: black;
   transition: 0.5s;
 }
 
