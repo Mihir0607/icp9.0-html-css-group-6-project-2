@@ -35,6 +35,7 @@ body{
     width: 350px;
    text-align: center;
    margin-inline-start: 39%;
+   
     }
     .line{
  
@@ -47,24 +48,28 @@ body{
       background-color: bisque;
       border: 3px solid black;
       text-align: center;
+      box-shadow: -5px 5px 10px 1px #172c66;
    }
    .line20{
     width: 320px;
     background-color: bisque;
     border: 3px solid black;
     text-align: center;
+    box-shadow: -5px 5px 10px 1px #172c66;
  }
  .line9{
   width: 320px;
   background-color: bisque;
   border: 3px solid black;
   text-align: center;
+  box-shadow: -5px 5px 10px 1px #172c66;
 }
 .line10{
   width: 320px;
   background-color: bisque;
   border: 3px solid black;
   text-align: center;
+  box-shadow: -5px 5px 10px 1px #172c66;
   
 }
 .ice-cream-card-container{
@@ -78,6 +83,7 @@ body{
   color: #e83e8c;
   padding: 2px ;
   font-size: 20px;
+
 }
 .line17{
   text-align: center;
@@ -92,7 +98,8 @@ body{
   align-items: center;
   margin-inline-start: 25% ;
   border:3px solid black;
-
+  background-color: bisque;
+  box-shadow: -5px 5px 10px 1px #172c66;
   
 }
 
