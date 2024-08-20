@@ -46,6 +46,7 @@ body{
       width: 320px;
       background-color: bisque;
       border: 3px solid black;
+      text-align: center;
    }
    .line20{
     width: 320px;
@@ -63,6 +64,7 @@ body{
   width: 320px;
   background-color: bisque;
   border: 3px solid black;
+  text-align: center;
   
 }
 .ice-cream-card-container{
@@ -108,6 +110,8 @@ body{
   background-color: #fff;
   width: 300px;
   border: 2px solid black;
+  text-align: center;
+  box-shadow: -5px 5px 10px 1px #172c66;
 }
 
 .card-cantainer{
