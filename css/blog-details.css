@@ -1,0 +1,117 @@
+/* blog-anjeer */
+.blog-anjeer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.anjeer-para {
+    margin: 5rem 16rem;
+    font-size: 20px;
+    text-align: left;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: #737373;
+}
+
+.anjeer-parag {
+    margin: 1rem 16rem;
+    font-size: 20px;
+    text-align: left;
+    color: #737373;
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin-bottom: 5rem;
+}
+
+.anjeer-parah {
+    margin: 2rem 16rem;
+    font-size: 20px;
+    text-align: left;
+}
+
+.anjeer-paragr {
+    margin: 1rem 16rem;
+    font-size: 20px;
+    text-align: left;
+    color: #737373;
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin-bottom: 5rem;
+}
+
+.anjeer-heading {
+    text-align: center;
+    margin: 5rem 0;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #000000;
+    letter-spacing: 1.5px;
+    line-height: 50px;
+    /* text-shadow: 0px 0px 3px #7a7a7a; */
+}
+
+.blog-img {
+    width: 50rem;
+    border-radius: 30px;
+    box-shadow: 1px 1px 5px #000000;
+}
+
+/* Ipad */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .anjeer-heading{
+        font-size: 2em;
+    }
+    .blog-img{
+        width: 75%;
+    }
+    .anjeer-para{
+        margin-left: 140px;
+        width: 65%;
+    }
+    .anjeer-parah{
+        margin-left: 140px;
+        width: 65%;
+    }
+    .anjeer-parag{
+        margin-left: 140px;
+        width: 65%;
+    }
+    .anjeer-paragr{
+        margin-left: 140px;
+        width: 65%;
+    }
+}
+
+
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+    .anjeer-heading{
+        font-size: 0.8em;
+        line-height: 25px;
+    }   
+    .blog-img{
+        width: 75%;
+    }
+    .anjeer-para{
+        width: 65%;
+        margin-left: 65px;
+        font-size: 15px;
+    }
+    .anjeer-parah{
+        margin-left: 65px;
+        width: 65%;
+        font-size: 16px;
+    }
+    .anjeer-parag{
+        width: 65%;
+        margin-left: 65px;
+        font-size: 15px;
+    }
+    .anjeer-paragr{
+        margin-left: 65px;
+        width: 65%;
+        font-size: 16px;
+    }
+}

@@ -6,8 +6,13 @@ body {
 }
 
 nav {
+<<<<<<< HEAD
   background-color: #ffd803;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3)
+=======
+  background-color:#ffd803;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+>>>>>>> 3039c0550e729a227f0874aaa7d91439429e1efa
 }
 nav span{
   color: black;
