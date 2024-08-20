@@ -6,13 +6,8 @@ body {
 }
 
 nav {
-<<<<<<< HEAD
   background-color: #ffd803;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3)
-=======
-  background-color:#ffd803;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
->>>>>>> 3039c0550e729a227f0874aaa7d91439429e1efa
 }
 nav span{
   color: black;
@@ -164,7 +159,7 @@ nav ul li a:hover {
 }
 
 
-/* small device */
+ /*small device */
 @media screen and (max-width: 600px) {
   nav ul li a {
       font-size: 10px;
@@ -356,7 +351,7 @@ nav ul li a:hover {
 
 
 .footer {
-  background: #ffffcc;
+  background: #ffd803;
   margin-top: 100px;
   padding: 50px;
   font-family: Arial, Helvetica, sans-serif;
