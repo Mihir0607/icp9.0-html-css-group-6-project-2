@@ -311,64 +311,7 @@ p {
 
 }
 
-/* blog-anjeer */
-.blog-anjeer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.anjeer-para {
-    margin: 5rem 16rem;
-    font-size: 20px;
-    text-align: left;
-    letter-spacing: 1px;
-    line-height: 30px;
-    color: #737373;
-}
-
-.anjeer-parag {
-    margin: 1rem 16rem;
-    font-size: 20px;
-    text-align: left;
-    color: #737373;
-    letter-spacing: 1px;
-    line-height: 30px;
-    margin-bottom: 5rem;
-}
-
-.anjeer-parah {
-    margin: 2rem 16rem;
-    font-size: 20px;
-    text-align: left;
-}
-
-.anjeer-paragr {
-    margin: 1rem 16rem;
-    font-size: 20px;
-    text-align: left;
-    color: #737373;
-    letter-spacing: 1px;
-    line-height: 30px;
-    margin-bottom: 5rem;
-}
-
-.anjeer-heading {
-    text-align: center;
-    margin: 5rem 0;
-    font-size: 40px;
-    text-transform: uppercase;
-    color: #000000;
-    letter-spacing: 1.5px;
-    line-height: 50px;
-    /* text-shadow: 0px 0px 3px #7a7a7a; */
-}
-
-.blog-img {
-    width: 50rem;
-    border-radius: 30px;
-    box-shadow: 1px 1px 5px #000000;
-}
 
 /* responsive */
 
