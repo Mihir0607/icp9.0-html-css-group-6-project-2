@@ -49,6 +49,7 @@ body{
       border: 3px solid black;
       text-align: center;
       box-shadow: -5px 5px 10px 1px #172c66;
+      padding-top: 15px;
    }
   
    .ice-cream-card{
@@ -88,6 +89,10 @@ body{
   font-size:13px;
   padding:10px 10px;
   margin:0px 10px;
+}
+.ice-cream-card-img{
+  width: 100px;
+  padding-top: 10px;
 }
 
 
