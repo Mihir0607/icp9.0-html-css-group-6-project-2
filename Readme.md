@@ -1,3 +1,4 @@
+<<<<<<< HEAD
   # BUGGU ICECREAM PARLOUR
 
   Welcome to our **Icecream Parlour** .This platform helps you to make an easier task of searching your favourite icecream and its flavour.
@@ -39,3 +40,6 @@ If you have any questions, feedback, or suggestions, please don't hesitate to co
 (mailto: mihirtayade20559@gmail.com).
 
 
+=======
+###BUGGU ICECREAM PARLOUR  
+>>>>>>> 0013993c32f45d51397d5f36cc74e24818ae4328
