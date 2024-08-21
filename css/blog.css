@@ -324,7 +324,31 @@ p {
         margin: 5px;
         height: 164px;
     }
+    .main-img{
+        display: grid;
+        margin: 19px 480px 0 193px;
+        padding: 4px;
+        place-content: unset;
+    }
+    .view-btn{
+        font-size: 8px;
+        margin-left: -58px;
 
+    }
+    .footer .row ul li {
+        display: block;
+        margin: 10px 0px;
+        text-align: left;
+    }
+    .footer .row a i {
+        margin: 0% 3%;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+    .footer .row a{
+        font-size: 7px;
+    }
     .section-heading {
         margin-left: -375px;
         font-size: 15px;
@@ -335,9 +359,13 @@ p {
     .img-fluid {
         width: 85px;
         height: 85px;
-        margin: -12px -97px -11px -100px;
+        margin: 6px -99px -12px -80px;
     }
     
+    .container .logo{
+        width: 10%;
+
+    }
 
     .container {
         height: 45px;
@@ -358,11 +386,32 @@ p {
 
     nav ul li a {
         font-size: 7px;
+        display: flex;
+        justify-content: left;
+        align-items: flex-start;
+        margin: 3px;
+        padding: 0;
     }
 
     h5 {
         font-size: 5px;
-        margin: 15px 0 1px -180px;
+        margin: 15px 0 1px -161px;
+    }
+    .footer .row{
+        font-size: 7px;
+        text-align: left;
+    }
+    .main-image{
+        display: grid;
+        margin: 19px 480px 0 193px;
+        padding: 4px;
+        place-content: unset;
+    }
+    .main-image1{
+        display: grid;
+        margin: 19px 480px 0 193px;
+        padding: 4px;
+        place-content: unset;
     }
 }
 
