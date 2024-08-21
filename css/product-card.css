@@ -43,28 +43,29 @@ body{
       text-align: center;
       margin-inline-start: 45px;
     }
-    .line7{
+    .ice-cream-card{
       width: 320px;
       background-color: bisque;
       border: 3px solid black;
       text-align: center;
       box-shadow: -5px 5px 10px 1px #172c66;
    }
-   .line20{
+  
+   .ice-cream-card{
     width: 320px;
     background-color: bisque;
     border: 3px solid black;
     text-align: center;
     box-shadow: -5px 5px 10px 1px #172c66;
  }
- .line9{
+ .ice-cream-card{
   width: 320px;
   background-color: bisque;
   border: 3px solid black;
   text-align: center;
   box-shadow: -5px 5px 10px 1px #172c66;
 }
-.line10{
+.ice-cream-card{
   width: 320px;
   background-color: bisque;
   border: 3px solid black;
@@ -72,11 +73,24 @@ body{
   box-shadow: -5px 5px 10px 1px #172c66;
   
 }
+
+
+
 .ice-cream-card-container{
   display :flex;
   justify-content: space-around;
- 
 }
+
+.ice-cream-card-btn{
+  background-color:#f3d83c;
+  color: black;
+  border-radius:10px;
+  font-size:13px;
+  padding:10px 10px;
+  margin:0px 10px;
+}
+
+
 .line11{
   text-align: center;
   margin-inline-start: 25% ;
