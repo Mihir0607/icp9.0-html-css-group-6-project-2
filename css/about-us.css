@@ -4,32 +4,43 @@
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     color: #272343;
-    background-color: #ffff99;
+}
+
+body {
+    background-color: #cadcfc;
 }
 
 .navbar {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #ffff99;
+    background-color: #ffa31a;
 }
 
 .nav-logo {
     height: 90px;
+    background-color: #ffa31a;
+}
+
+#shop-name {
+    background-color: #ffa31a;
 }
 
 .nav-logo-heading {
     display: flex;
     align-items: center;
+    background-color: #ffa31a;
 }
 
 .nav {
     margin: 0 20px;
+    background-color: #ffa31a;
 }
 
 li {
     list-style: none;
     display: inline-block;
+    background-color: #ffa31a;
 }
 
 /* footer */
@@ -96,6 +107,18 @@ li {
     margin-top: 50px;
 }
 
+.Members {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.students {
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
 footer {
     background-color: #ffff99;
@@ -113,10 +136,15 @@ footer a {
 }
 
 footer a:hover {
-    color: #ff6347; /* Tomato color for hover effect */
+    color: #ff6347;
+    /* Tomato color for hover effect */
 }
 
 .footer-content {
     max-width: 800px;
     margin: 0 auto;
+}
+
+footer {
+    background-color: #ffa31a;
 }
