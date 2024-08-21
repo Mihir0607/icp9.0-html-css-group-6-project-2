@@ -49,6 +49,7 @@ body{
       border: 3px solid black;
       text-align: center;
       box-shadow: -5px 5px 10px 1px #172c66;
+      padding-top: 15px;
    }
   
    .ice-cream-card{
@@ -69,7 +70,6 @@ body{
   width: 320px;
   background-color: bisque;
   border: 3px solid black;
-  text-align: center;
   box-shadow: -5px 5px 10px 1px #172c66;
   
 }
@@ -88,6 +88,10 @@ body{
   font-size:13px;
   padding:10px 10px;
   margin:0px 10px;
+}
+.ice-cream-card-img{
+  width: 100px;
+  padding-top: 10px;
 }
 
 
@@ -125,6 +129,7 @@ body{
 .img-container{
   display: flex;
   margin-right: 100px;
+
   
 }
 .line15{
@@ -133,11 +138,26 @@ body{
   border: 2px solid black;
   text-align: center;
   box-shadow: -5px 5px 10px 1px #172c66;
+  padding-top: 10px;
+
 }
 
 .card-cantainer{
   display: flex;
   justify-content: space-around;
+}
+.card-cantainer-btn{
+  background-color:#f3d83c;
+  color: black;
+  border-radius:10px;
+  font-size:13px;
+  padding:10px 10px;
+  margin:0px 8px;
+}
+.card-cantainer-img{
+  width: 100px;
+  height: 100px;
+  padding-top: 10px;
 }
 
 .footer-img{
