@@ -88,18 +88,18 @@ nav ul li a:hover {
     width: 100%;
     margin: 1% 0%;
     padding: 0.6% 0%;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 0.8em;
 }
 
 .footer .row a {
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
     transition: 0.5s;
 }
 
 .footer .row a:hover {
-    color: #030068;
+    color: gray;
 }
 
 .footer .row ul {
