@@ -29,7 +29,7 @@ website is to provide a convenient way for a customer to browse and order their 
 
 ## Technologies Used
 
-  **GlobeTrek is built using the following technologies :**
+  **BUGGU ICECREAM is built using the following technologies :**
 
 - ```HTML```
 - ```CSS```
