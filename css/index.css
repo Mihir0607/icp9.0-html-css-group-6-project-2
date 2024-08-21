@@ -6,7 +6,7 @@ body {
 }
 
 nav {
-  background-color: #ffd803;
+  background-color:#ff8e3c;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3)
 }
 nav span{
@@ -351,7 +351,7 @@ nav ul li a:hover {
 
 
 .footer {
-  background: #ffd803;
+  background: #ff8e3c;
   margin-top: 100px;
   padding: 50px;
   font-family: Arial, Helvetica, sans-serif;
