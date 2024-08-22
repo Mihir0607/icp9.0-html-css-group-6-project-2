@@ -5,7 +5,7 @@
 
 ## Home page 
 
-![home image](homepageimg.png)
+![home image](img-1.png)
 
 
 
