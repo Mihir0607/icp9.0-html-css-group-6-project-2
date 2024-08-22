@@ -4,8 +4,7 @@
 
 
 ## Home page 
-![home image](image-1.png)
-
+![home image](homepageimg.png)
 
 
 ## Introduction
