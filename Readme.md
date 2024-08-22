@@ -4,7 +4,7 @@
 
 
 ## Home page 
-![home image](![Uploading homepageimg.png…]()
+![home image](./img/home.png)
 
 
 
