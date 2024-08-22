@@ -4,11 +4,8 @@
 
 
 ## Home page 
-<<<<<<< HEAD
+
 ![home image](homepageimg.png)
-=======
-![home image](img.png)
->>>>>>> c55312014ec099af43930d12f063c4fa19e278ba
 
 
 
