@@ -7,6 +7,8 @@
 ![home image](homepageimg.png)
 
 
+
+
 ## Introduction
 The Icecream Parlour is a web based application.The main purpose of this
 website is to provide a convenient way for a customer to browse and order their favourite icecreams.The objective of this project is to develop a system that automates the processes and activities of an online icecream parlour. 
