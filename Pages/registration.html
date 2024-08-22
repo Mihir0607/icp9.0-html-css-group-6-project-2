@@ -50,13 +50,17 @@
     height: 15px;
     width:10px;
 }
+nav span:hover{
+  color:  #efa2f2;
+}
+
 .container1{
   display: flex;
   justify-content: space-between;
   align-items:center;
   padding:10px 20px;
   font font-size: 50px;
-  Background-color:#ffd803;;
+  Background-color:#ff8e3c;
 }
 .container1.logo{
   display: flex;
@@ -87,7 +91,7 @@ li{
 .container {
       background-color:white;
       text-align: center;
-      width:500px;
+      width:800px;
       height:400px;
       padding:10px 5px;
       border-radius: 30px;
@@ -98,16 +102,13 @@ li{
       justify-content:center;
       align-item:left center;
       margin: 50px 100px 50px 60px;
-      border:7px solid black;
+      border:2px solid black;
+      border-radius:50px;
+      padding:10px;
       }
-.box{
-  height: 400;
-  width:500;
-  border-radius:50px 50px 50px 50px;
-}
       .container:hover{
-        box-shadow: 0 0 50px 20px ;
-        background-color: rgb(252, 250, 125);
+        box-shadow: 2px 2px 2px 2px rgb(219, 206, 140);
+        background-color: rgb(255, 255, 244);
       }
         .text1{
         color:  #131213;
@@ -118,23 +119,26 @@ li{
         border-bottom: #131213;
         }
         .btn{
-        display: inline;
-        background-color: white;
-        margin: 5px;
-        color: #d8c9d0;
-        border-radius: 10px;
-        border: 5px solid rgb(30, 28, 26);
-        height: 100;
-        width: 50;
+          background-color:#f3d83c;
+            color: black;
+            border-radius:10px;
+            padding:12px 22px;
+            margin:0px 70px;
+            margin-bottom:5px;
+            margin-top:0 ;
+            font-size:15px;
+            font-size: 15px;
         }
-        .btn :hover{
-         box-shadow: 0 0 30px 10px ;
-         background-color: rgb(176, 176, 200);
+        .btn:hover{
+            border:1px solid rgb(54, 50, 50) 1px;
+            background-color: #ffd803;
+            border-radius:rgb(120, 110, 110) solid 2px;
+            transition: 1.5s;
         }
           .text{
               text-align: center;
               color:rgb(166, 22, 113);
-              font-family:initial
+              font-family:cursive;
               font-size: 40px;
               background-color:#ffffcc;
           }
@@ -142,31 +146,42 @@ li{
           color:  rgb(166, 22, 113);
           text-align: center;
           font-size:50px;
-          font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   background-color: #cadcfc;
+          font-family:cursive;
           }
           .text2{
-            color:rgb(166, 22, 113) ;
+            color:rgb(166, 22, 113);
+          font-size: 20px;
+          }
+          .text4{
+              color:rgb(18, 7, 171);
+              font-family:initial
+              font-size: 10px;
           }
           .text3{
-            color: rgb(166, 22, 113);
+          color:rgb(166, 22, 113);
+          font-size: 20px;
+          font-family:'Courier New', Courier, monospace;
           }
           .btn{
-          display: inline;
-          background-color: rgb(237, 233, 233);
-          margin: 5px;
-          color: #eba0a0;
-          border-radius: 10px;
-          border: 5px solid rgb(30, 28, 26);
-          height: 100;
-          width: 50;
-          }
-          .btn:hover{
-           box-shadow: 0 0 50px 20px;
-           background-color: rgb(34, 34, 37);
-          }
+          background-color:#f3d83c;
+            color: black;
+            border-radius:10px;
+            padding:12px 22px;
+            margin:0px 70px;
+            margin-bottom:5px;
+            margin-top:0 ;
+            font-size:15px;
+            font-size: 15px;
+        }
+        .btn:hover{
+            border:1px solid rgb(54, 50, 50) 1px;
+            background-color: #ffd803;
+            border-radius:black solid 9px;
+         
+            transition: 1.5s;
+        }
           .footer {
-  background: #ffd803;
+  background: #ff8e3c;
   margin-top: 50px;
   padding: 50px;
   font-family: Arial, Helvetica, sans-serif;
@@ -254,17 +269,16 @@ li{
       <h1 class="text">Register!</h1><br>
       <p class="text2">Please fill in this form to create an account.</p><br>
       <hr><br>
-        <label for=" input Email">Enter full name:</label><br>
-        <input type="text" placeholder="Enter full name" name="name" id="name" ><br><br>
+        <label for=" input Email">Enter full name:</label>
+        <input  type="text"placeholder="Enter full name" name="name" id="name" ><br><br>
 
-        <label for=" input Email">Enter Email:</label><br>
+        <label for=" input Email">Enter Email:</label>
         <input type="text" placeholder="Enter Email" name="email" id="email" ><br><br>
     
-        <label for=" input Email">Enter Password:</label><br>
+        <label for=" input Email">Enter Password:</label>
         <input type="text" placeholder="Enter Password" name="Password" id="Password" ><br><br>
-<div class="text3">
-    <p>By creating an account you agree to our Terms & privacy</p>
-    </div><br>
+    <p class="text3">By creating an account you agree to our Terms & privacy</p>
+    <br>
     <button class="btn">Register Now</button>
     </div>
     </div>
