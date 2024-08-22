@@ -4,7 +4,8 @@
 
 
 ## Home page 
-![home image](image-1.png)
+![home image]( ![Uploading Screenshot 2024-08-22 194745.png…]()
+)
 
 
 
